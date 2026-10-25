@@ -254,3 +254,33 @@ Vi Chi Thanh (2026b), *Week 3: Introduction to Accessibility and Inclusive Desig
 W3C Web Accessibility Initiative (2024a), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
 
 W3C Web Accessibility Initiative (2024b), *Involving Users in Web Projects for Better, Easier Accessibility*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/planning/involving-users/>.
+
+# Phụ lục. Các màn hình mockup còn lại
+
+![Chào mừng](../04-design/high-fidelity/07-chao-mung.png){ width=42% } ![Chọn địa điểm](../04-design/high-fidelity/08-chon-dia-diem.png){ width=42% }
+
+Hình 18. Chào mừng và chọn địa điểm.
+
+![Danh sách hiện vật](../04-design/high-fidelity/02-danh-sach-hien-vat.png){ width=42% } ![Quét mã](../04-design/high-fidelity/09-quet-ma.png){ width=42% }
+
+Hình 19. Danh sách hiện vật và quét mã.
+
+![Gợi ý tiếp theo](../04-design/high-fidelity/10-goi-y-tiep-theo.png){ width=42% } ![Bản chép lời](../04-design/high-fidelity/21-ban-chep-loi.png){ width=42% }
+
+Hình 20. Gợi ý tiếp theo và bản chép lời.
+
+![Tour Premium](../04-design/high-fidelity/04-tour-premium.png){ width=42% } ![Điểm Premium](../04-design/high-fidelity/14-diem-premium.png){ width=42% }
+
+Hình 21. Xem tour và điểm trả phí.
+
+![Hoàn thành tour](../04-design/high-fidelity/15-hoan-thanh.png){ width=42% } ![Dòng thời gian và nguồn](../04-design/high-fidelity/22-dong-thoi-gian-nguon.png){ width=42% }
+
+Hình 22. Hoàn thành tour và nguồn nội dung.
+
+![Đã lưu](../04-design/high-fidelity/16-da-luu.png){ width=42% } ![Cá nhân](../04-design/high-fidelity/17-ca-nhan.png){ width=42% }
+
+Hình 23. Đã lưu và trang cá nhân.
+
+![Nhập mã lỗi](../04-design/high-fidelity/18-nhap-ma-loi.png){ width=42% } ![Đã lưu rỗng](../04-design/high-fidelity/19-da-luu-rong.png){ width=42% }
+
+Hình 24. Nhập mã lỗi và danh sách rỗng.

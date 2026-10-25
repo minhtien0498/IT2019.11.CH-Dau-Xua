@@ -70,8 +70,8 @@ Cập nhật gần nhất: 2026-10-25
 
 ## Báo cáo cuối kỳ
 
-- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.834 từ hiển thị, thấp hơn giới hạn 2.000 từ.
-- [x] Đưa tám màn hình mockup Figma vào Mục 2.6; đồng bộ nguồn Markdown, Word và bản PDF A4 trong `docs/03-submission/`.
+- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7 và phụ lục hình, có khoảng 1.943 từ hiển thị, thấp hơn giới hạn 2.000 từ.
+- [x] Đưa đủ 22 màn hình mockup Figma vào báo cáo: 8 tại Mục 2.6 và 14 trong phụ lục; đồng bộ nguồn Markdown, Word và bản PDF A4 trong `docs/03-submission/`.
 - [x] Đặt tên hai file nộp `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp; kiểm tra file sau khi đổi tên.
 - [x] Thêm Mục 2.7 với liên kết Figma mockup, phác thảo và mã nguồn; cập nhật Word/PDF, kiểm tra liên kết bấm được.
 - [x] Đưa mã nguồn, tài liệu thiết kế và báo cáo lên repo GitHub `IT2019.11.CH-Dau-Xua`; liên kết repo đã có trong Mục 2.7 của Word/PDF.
@@ -79,6 +79,7 @@ Cập nhật gần nhất: 2026-10-25
 
 ## Nhật ký hoàn thành
 
+- 2026-10-25: Bổ sung 14 mockup mức cao còn thiếu vào phụ lục theo bảy cặp hình, giữ tám màn hình tiêu biểu trong Mục 2.6. Đối chiếu đủ 22/22 PNG nguồn, không trùng hình; Word có 35 ảnh nhúng, 24 chú thích hình và không có ngắt trang thủ công. PDF A4 có 13 trang; đã xem các trang phụ lục và kiểm tra ảnh đi cùng chú thích. Văn bản hiển thị khoảng 1.943 từ.
 - 2026-10-25: Bổ sung cặp màn hình Figma “Danh sách tour” và “Tiến trình tour” vào Mục 2.6 để minh họa luồng trả phí khi không cần demo. Báo cáo hiện có tám màn hình mockup, 17 chú thích hình và khoảng 1.834 từ hiển thị. Đồng bộ Markdown, Word, PDF; kiểm tra PDF A4 10 trang, các cặp ảnh và chú thích nằm cùng trang, Word có 21 hình nhúng và không có ngắt trang thủ công. Figma MCP hết lượt gọi gói Starter nên dùng PNG mockup cục bộ đã nhập vào file Figma.
 - 2026-10-25: Sau khi người học chỉ ra khoảng trắng lớn trong Word, xác định nguyên nhân là các ngắt trang thủ công trước Mục 2.1, chân dung 3 và các mục sau. Tạo lại Word từ Markdown mà không chèn ngắt trang; kiểm tra không còn `page_break_before` hoặc ký tự ngắt trang. Bỏ dòng demo theo yêu cầu, xuất lại PDF A4 9 trang; bản văn hiển thị khoảng 1.827 từ.
 - 2026-10-25: Clone repo GitHub mới, đưa 214 file dự án lên nhánh `main` tại commit `103e0dc` và gắn Git cho workspace hiện tại. Không đưa file môi trường, thư mục build, `node_modules`, slide/bài mẫu môn học hoặc bản lưu trữ vào repo. Kiểm tra trang GitHub mở công khai, ứng dụng build thành công và link mã nguồn trong PDF bấm được; báo cáo hiện có khoảng 1.840 từ hiển thị.
