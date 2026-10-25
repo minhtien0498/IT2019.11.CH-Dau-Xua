@@ -225,11 +225,10 @@ Hình 16. Mockup Figma: thiết lập trợ năng và lối mở không dùng ca
 
 Bản thử nghiệm 0.5.1 chỉ có bốn chuyện mẫu; vị trí, QR, thanh toán, ngoại tuyến, AR và rung được mô phỏng. Tour mới có một điểm tương tác; chưa có bản chép lời khớp âm thanh, nguồn lịch sử thật hoặc kiểm thử VoiceOver/TalkBack. Vì vậy, chưa thể kết luận sản phẩm đáp ứng đầy đủ các yêu cầu tiếp cận và nội dung.
 
-## 2.7. Liên kết xem thiết kế và bản thử nghiệm
+## 2.7. Liên kết thiết kế và mã nguồn
 
 - [Mockup Figma mức cao: 22 màn hình](https://www.figma.com/design/fYqJNkIZOrHHubt2pVu7Y5).
 - [Phác thảo Figma low-fi: ba luồng](https://www.figma.com/design/Hswz66mX3mCWBZLek8EF2o).
-- Demo trực tuyến: chưa ghi nhận liên kết công khai.
 - [Mã nguồn Dấu Xưa trên GitHub](https://github.com/minhtien0498/IT2019.11.CH-Dau-Xua).
 
 # Tài liệu tham khảo

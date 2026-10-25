@@ -70,15 +70,16 @@ Cập nhật gần nhất: 2026-10-25
 
 ## Báo cáo cuối kỳ
 
-- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.842 từ hiển thị, thấp hơn giới hạn 2.000 từ.
+- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.827 từ hiển thị, thấp hơn giới hạn 2.000 từ.
 - [x] Đưa sáu hình mockup Figma vào Mục 2.6; đồng bộ nguồn Markdown, Word và bản PDF A4 trong `docs/03-submission/`.
 - [x] Đặt tên hai file nộp `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp; kiểm tra file sau khi đổi tên.
-- [x] Thêm Mục 2.7 với liên kết Figma mockup và phác thảo; cập nhật Word/PDF, kiểm tra liên kết bấm được và bản văn hiển thị khoảng 1.842 từ.
+- [x] Thêm Mục 2.7 với liên kết Figma mockup, phác thảo và mã nguồn; cập nhật Word/PDF, kiểm tra liên kết bấm được.
 - [x] Đưa mã nguồn, tài liệu thiết kế và báo cáo lên repo GitHub `IT2019.11.CH-Dau-Xua`; liên kết repo đã có trong Mục 2.7 của Word/PDF.
-- [ ] Điền URL demo trực tuyến vào Mục 2.7 khi có bản triển khai công khai.
+- [x] Bỏ dòng demo theo yêu cầu; tạo lại Word không có ngắt trang thủ công và đồng bộ PDF.
 
 ## Nhật ký hoàn thành
 
+- 2026-10-25: Sau khi người học chỉ ra khoảng trắng lớn trong Word, xác định nguyên nhân là các ngắt trang thủ công trước Mục 2.1, chân dung 3 và các mục sau. Tạo lại Word từ Markdown mà không chèn ngắt trang; kiểm tra không còn `page_break_before` hoặc ký tự ngắt trang. Bỏ dòng demo theo yêu cầu, xuất lại PDF A4 9 trang; bản văn hiển thị khoảng 1.827 từ.
 - 2026-10-25: Clone repo GitHub mới, đưa 214 file dự án lên nhánh `main` tại commit `103e0dc` và gắn Git cho workspace hiện tại. Không đưa file môi trường, thư mục build, `node_modules`, slide/bài mẫu môn học hoặc bản lưu trữ vào repo. Kiểm tra trang GitHub mở công khai, ứng dụng build thành công và link mã nguồn trong PDF bấm được; báo cáo hiện có khoảng 1.840 từ hiển thị.
 - 2026-10-25: Thêm Mục 2.7 vào báo cáo cuối kỳ với hai liên kết Figma. Chưa có URL demo và mã nguồn trong workspace nên ghi đúng trạng thái chưa có liên kết công khai. Đồng bộ Markdown, DOCX và PDF; kiểm tra PDF A4 có 9 trang, hai liên kết Figma bấm được, Word có 35 đề mục, 19 hình và 8 bảng. Bản văn hiển thị khoảng 1.842 từ.
 - 2026-10-25: Nhận MSSV 250201095 và đổi tên bản báo cáo cuối kỳ DOCX/PDF thành `finalreport_ToHuynhMinhTien_250201095`; kiểm tra cả hai file tồn tại và bản Word khớp nguồn.
