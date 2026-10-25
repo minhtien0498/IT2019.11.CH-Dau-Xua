@@ -209,7 +209,7 @@ Hình 13. Phác thảo tour trả phí.
 
 ## 2.6. Rà soát và điều chỉnh giao diện theo nguyên tắc khả dụng
 
-Đánh giá theo 10 nguyên tắc của Nielsen dẫn đến ba điều chỉnh chính: thêm lối danh sách khi QR lỗi, hiển thị trạng thái trình phát, và đặt giá cùng phần nghe thử trước xác nhận mua. Đây là rà soát thiết kế, chưa phải kiểm thử với người dùng.
+Đánh giá theo 10 nguyên tắc của Nielsen dẫn đến ba điều chỉnh chính: thêm lối danh sách khi QR lỗi, hiển thị trạng thái trình phát, và đặt giá cùng phần nghe thử trước xác nhận mua. Chưa kiểm thử với người dùng.
 
 ![Màn hình Khám phá](../04-design/high-fidelity/01-kham-pha.png){ width=42% } ![Trình phát câu chuyện](../04-design/high-fidelity/03-trinh-phat.png){ width=42% }
 
@@ -219,9 +219,13 @@ Hình 14. Mockup Figma: mở hiện vật và nghe chuyện miễn phí.
 
 Hình 15. Mockup Figma: giá trước khi mua và lối tiếp tục khi AR lỗi.
 
+![Danh sách tour](../04-design/high-fidelity/11-danh-sach-tour.png){ width=42% } ![Tiến trình tour](../04-design/high-fidelity/13-tien-trinh-tour.png){ width=42% }
+
+Hình 16. Danh sách và tiến trình tour.
+
 ![Thiết lập trợ năng](../04-design/high-fidelity/06-tro-nang.png){ width=42% } ![Camera không có quyền](../04-design/high-fidelity/20-camera-khong-co-quyen.png){ width=42% }
 
-Hình 16. Mockup Figma: thiết lập trợ năng và lối mở không dùng camera.
+Hình 17. Mockup Figma: thiết lập trợ năng và lối mở không dùng camera.
 
 Bản thử nghiệm 0.5.1 chỉ có bốn chuyện mẫu; vị trí, QR, thanh toán, ngoại tuyến, AR và rung được mô phỏng. Tour mới có một điểm tương tác; chưa có bản chép lời khớp âm thanh, nguồn lịch sử thật hoặc kiểm thử VoiceOver/TalkBack. Vì vậy, chưa thể kết luận sản phẩm đáp ứng đầy đủ các yêu cầu tiếp cận và nội dung.
 

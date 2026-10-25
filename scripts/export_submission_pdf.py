@@ -23,6 +23,7 @@ A4_PRINT_STYLE = """
 }
 tr, table, img { break-inside: avoid; }
 p:has(+ table) { break-after: avoid; }
+p:has(img) { break-inside: avoid; break-after: avoid; }
 p:has(a[name="tài-liệu-tham-khảo"]) { break-before: page; }
 </style>
 """

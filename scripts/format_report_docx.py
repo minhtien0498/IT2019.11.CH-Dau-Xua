@@ -85,8 +85,12 @@ def format_image_captions(document: Document) -> int:
 
     caption_count = 0
     for paragraph in document.paragraphs:
+        if paragraph._element.xpath('.//w:drawing'):
+            paragraph.paragraph_format.keep_with_next = True
+            paragraph.paragraph_format.keep_together = True
         if paragraph.text.startswith("Hình "):
             paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            paragraph.paragraph_format.keep_together = True
             for run in paragraph.runs:
                 run.italic = False
             caption_count += 1
