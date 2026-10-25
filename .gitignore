@@ -1,0 +1,11 @@
+.venv
+app/node_modules/
+app/dist/
+__pycache__/
+*.py[cod]
+.DS_Store
+~$*.docx
+docs/01-course-materials/
+docs/00-yeu-cau-tung-tuan/slide/
+docs/06-luu-tru/
+!CHECKLIST.md
