@@ -16,4 +16,4 @@ Ghi nhận ngày 24/10/2026 theo nội dung người học cung cấp trong cu�
 
 ## Trạng thái
 
-Đã tạo bản báo cáo cuối kỳ rút gọn tại `docs/02-report/Dau_Xua_Final_Report.md` và `.docx`; bản văn hiển thị khoảng 1.842 từ, giữ các đề mục cũ, thêm Mục 2.7 về liên kết xem thiết kế và bổ sung sáu hình mockup Figma. DOCX/PDF đã có trong `docs/03-submission/`. Tên file nộp là `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp. Mục 2.7 đã có hai link Figma; link demo và mã nguồn đang chờ URL công khai.
+Đã tạo bản báo cáo cuối kỳ rút gọn tại `docs/02-report/Dau_Xua_Final_Report.md` và `.docx`; bản văn hiển thị khoảng 1.840 từ, giữ các đề mục cũ, thêm Mục 2.7 về liên kết xem thiết kế và bổ sung sáu hình mockup Figma. DOCX/PDF đã có trong `docs/03-submission/`. Tên file nộp là `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp. Mục 2.7 đã có hai link Figma và [link kho mã nguồn](https://github.com/minhtien0498/IT2019.11.CH-Dau-Xua); link demo trực tuyến vẫn chưa có.
