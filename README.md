@@ -39,7 +39,7 @@ Các file quan trọng:
 - `docs/02-report/Dau_Xua_HCI_User_Centred_Design_Expanded.docx`: bản Word được đồng bộ từ nguồn Markdown.
 - `docs/02-report/Dau_Xua_HCI_User_Centred_Design_Expanded_ver_BaiTap4.md` và `.docx`: bản báo cáo riêng cho Bài tập 4; giữ nguyên tiêu đề báo cáo gốc, có bảng lịch sử thay đổi và phụ lục rà soát heuristic cùng ảnh giao diện.
 - `docs/02-report/Dau_Xua_HCI_User_Centred_Design_Expanded_ver_BaiTap5.md` và `.docx`: bản báo cáo tích lũy hiện hành, có Mục 2.5 về sitemap và phác thảo số low-fi, Mục 2.6 về rà soát giao diện; phác thảo giấy và wireframe Figma còn thiếu.
-- `docs/02-report/Dau_Xua_Final_Report.md` và `.docx`: bản báo cáo cuối kỳ rút gọn từ `ver_BaiTap5`, giữ các đề mục cũ và thêm Mục 2.7 về liên kết xem thiết kế, mã nguồn; nhúng hình HTA, phác thảo và đủ 22 màn hình mockup đã nhập vào Figma (8 trong Mục 2.6, 14 trong phụ lục).
+- `docs/02-report/Dau_Xua_Final_Report.md` và `.docx`: bản báo cáo cuối kỳ rút gọn từ `ver_BaiTap5`, giữ các đề mục cũ và thêm Mục 2.7 về liên kết xem thiết kế, mã nguồn; nhúng hình HTA, phác thảo và đủ 22 màn hình mockup trong Mục 2.6, với mã frame Figma ngay ở chú thích hình.
 - `docs/02-report/diagrams/drawio/HTA_Dau_Xua.drawio`: file Draw.io tổng hợp chín trang HTA; thư mục này cũng có chín file nguồn riêng.
 - `docs/03-submission/2026-UIT-MSc-Tô Huỳnh Minh Tiến.docx` và `.pdf`: hai bản cuối để nộp.
 - `docs/03-submission/2026-UIT-MSc-Tô Huỳnh Minh Tiến_ver_BaiTap4.docx` và `.pdf`: bản nộp riêng cho Bài tập 4; không ghi đè bản nộp ngày 19/09/2026.
@@ -65,7 +65,7 @@ Các file quan trọng:
 
 ## Phạm vi hiện tại
 
-Báo cáo cuối kỳ `Dau_Xua_Final_Report` được rút gọn từ `ver_BaiTap5`, giữ các mục cũ và danh mục tham khảo, đồng thời đưa 8 màn hình mockup Figma vào Mục 2.6 và 14 màn hình còn lại vào phụ lục. Mục 2.7 có liên kết đến hai file Figma và kho mã nguồn. Các bản báo cáo và bản nộp trước được giữ để tra cứu lịch sử; không sửa bản chốt trong `docs/06-luu-tru/`. Bản thử nghiệm React 0.5.1 có bốn câu chuyện mẫu, các luồng mở hiện vật, trình phát và một điểm tour trả phí để minh họa. Vị trí, QR, thanh toán, tải ngoại tuyến, AR và rung được mô phỏng; mô tả hiện vật có chữ nhưng chưa có bản thu riêng hoặc bản chép lời khớp âm thanh. Chưa kiểm thử với VoiceOver/TalkBack. Theo slide tuần 5, vẫn cần bản phác thảo giấy và wireframe số trong Figma.
+Báo cáo cuối kỳ `Dau_Xua_Final_Report` được rút gọn từ `ver_BaiTap5`, giữ các mục cũ và danh mục tham khảo, đồng thời đưa đủ 22 màn hình mockup Figma vào Mục 2.6. Mục 2.7 có liên kết đến hai file Figma và kho mã nguồn. Các bản báo cáo và bản nộp trước được giữ để tra cứu lịch sử; không sửa bản chốt trong `docs/06-luu-tru/`. Bản thử nghiệm React 0.5.1 có bốn câu chuyện mẫu, các luồng mở hiện vật, trình phát và một điểm tour trả phí để minh họa. Vị trí, QR, thanh toán, tải ngoại tuyến, AR và rung được mô phỏng; mô tả hiện vật có chữ nhưng chưa có bản thu riêng hoặc bản chép lời khớp âm thanh. Chưa kiểm thử với VoiceOver/TalkBack. Theo slide tuần 5, vẫn cần bản phác thảo giấy và wireframe số trong Figma.
 
 Mốc từ phần mở đầu đến hết Mục 2.4 có hạn nộp ngày 19/09/2026 và đã được lưu tại `docs/06-luu-tru/2026-09-19-han-nop-muc-2.4/`. Từ ngày 20/09/2026, các thay đổi mới tiếp tục thực hiện trên bản làm việc; không ghi đè bản đã lưu.
 

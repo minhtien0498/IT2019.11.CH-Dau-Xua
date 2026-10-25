@@ -213,19 +213,49 @@ Hình 13. Phác thảo tour trả phí.
 
 ![Màn hình Khám phá](../04-design/high-fidelity/01-kham-pha.png){ width=42% } ![Trình phát câu chuyện](../04-design/high-fidelity/03-trinh-phat.png){ width=42% }
 
-Hình 14. Mockup Figma: mở hiện vật và nghe chuyện miễn phí.
+Hình 14. Mockup Figma: mở hiện vật và nghe chuyện miễn phí (frame 01, 03).
 
 ![Xác nhận mua](../04-design/high-fidelity/12-xac-nhan-mua.png){ width=42% } ![Phương án thay thế AR](../04-design/high-fidelity/05-ar-thay-the.png){ width=42% }
 
-Hình 15. Mockup Figma: giá trước khi mua và lối tiếp tục khi AR lỗi.
+Hình 15. Mockup Figma: giá trước khi mua và lối tiếp tục khi AR lỗi (frame 12, 05).
 
 ![Danh sách tour](../04-design/high-fidelity/11-danh-sach-tour.png){ width=42% } ![Tiến trình tour](../04-design/high-fidelity/13-tien-trinh-tour.png){ width=42% }
 
-Hình 16. Danh sách và tiến trình tour.
+Hình 16. Danh sách và tiến trình tour (frame 11, 13).
 
 ![Thiết lập trợ năng](../04-design/high-fidelity/06-tro-nang.png){ width=42% } ![Camera không có quyền](../04-design/high-fidelity/20-camera-khong-co-quyen.png){ width=42% }
 
-Hình 17. Mockup Figma: thiết lập trợ năng và lối mở không dùng camera.
+Hình 17. Mockup Figma: thiết lập trợ năng và lối mở không dùng camera (frame 06, 20).
+
+### Các màn hình mockup bổ sung
+
+![Chào mừng](../04-design/high-fidelity/07-chao-mung.png){ width=42% } ![Chọn địa điểm](../04-design/high-fidelity/08-chon-dia-diem.png){ width=42% }
+
+Hình 18. Chào mừng và chọn địa điểm (frame 07, 08).
+
+![Danh sách hiện vật](../04-design/high-fidelity/02-danh-sach-hien-vat.png){ width=42% } ![Quét mã](../04-design/high-fidelity/09-quet-ma.png){ width=42% }
+
+Hình 19. Danh sách hiện vật và quét mã (frame 02, 09).
+
+![Gợi ý tiếp theo](../04-design/high-fidelity/10-goi-y-tiep-theo.png){ width=42% } ![Bản chép lời](../04-design/high-fidelity/21-ban-chep-loi.png){ width=42% }
+
+Hình 20. Gợi ý tiếp theo và bản chép lời (frame 10, 21).
+
+![Tour Premium](../04-design/high-fidelity/04-tour-premium.png){ width=42% } ![Điểm Premium](../04-design/high-fidelity/14-diem-premium.png){ width=42% }
+
+Hình 21. Xem tour và điểm trả phí (frame 04, 14).
+
+![Hoàn thành tour](../04-design/high-fidelity/15-hoan-thanh.png){ width=42% } ![Dòng thời gian và nguồn](../04-design/high-fidelity/22-dong-thoi-gian-nguon.png){ width=42% }
+
+Hình 22. Hoàn thành tour và nguồn nội dung (frame 15, 22).
+
+![Đã lưu](../04-design/high-fidelity/16-da-luu.png){ width=42% } ![Cá nhân](../04-design/high-fidelity/17-ca-nhan.png){ width=42% }
+
+Hình 23. Đã lưu và trang cá nhân (frame 16, 17).
+
+![Nhập mã lỗi](../04-design/high-fidelity/18-nhap-ma-loi.png){ width=42% } ![Đã lưu rỗng](../04-design/high-fidelity/19-da-luu-rong.png){ width=42% }
+
+Hình 24. Nhập mã lỗi và danh sách rỗng (frame 18, 19).
 
 Bản thử nghiệm 0.5.1 chỉ có bốn chuyện mẫu; vị trí, QR, thanh toán, ngoại tuyến, AR và rung được mô phỏng. Tour mới có một điểm tương tác; chưa có bản chép lời khớp âm thanh, nguồn lịch sử thật hoặc kiểm thử VoiceOver/TalkBack. Vì vậy, chưa thể kết luận sản phẩm đáp ứng đầy đủ các yêu cầu tiếp cận và nội dung.
 
@@ -254,33 +284,3 @@ Vi Chi Thanh (2026b), *Week 3: Introduction to Accessibility and Inclusive Desig
 W3C Web Accessibility Initiative (2024a), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
 
 W3C Web Accessibility Initiative (2024b), *Involving Users in Web Projects for Better, Easier Accessibility*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/planning/involving-users/>.
-
-# Phụ lục. Các màn hình mockup còn lại
-
-![Chào mừng](../04-design/high-fidelity/07-chao-mung.png){ width=42% } ![Chọn địa điểm](../04-design/high-fidelity/08-chon-dia-diem.png){ width=42% }
-
-Hình 18. Chào mừng và chọn địa điểm.
-
-![Danh sách hiện vật](../04-design/high-fidelity/02-danh-sach-hien-vat.png){ width=42% } ![Quét mã](../04-design/high-fidelity/09-quet-ma.png){ width=42% }
-
-Hình 19. Danh sách hiện vật và quét mã.
-
-![Gợi ý tiếp theo](../04-design/high-fidelity/10-goi-y-tiep-theo.png){ width=42% } ![Bản chép lời](../04-design/high-fidelity/21-ban-chep-loi.png){ width=42% }
-
-Hình 20. Gợi ý tiếp theo và bản chép lời.
-
-![Tour Premium](../04-design/high-fidelity/04-tour-premium.png){ width=42% } ![Điểm Premium](../04-design/high-fidelity/14-diem-premium.png){ width=42% }
-
-Hình 21. Xem tour và điểm trả phí.
-
-![Hoàn thành tour](../04-design/high-fidelity/15-hoan-thanh.png){ width=42% } ![Dòng thời gian và nguồn](../04-design/high-fidelity/22-dong-thoi-gian-nguon.png){ width=42% }
-
-Hình 22. Hoàn thành tour và nguồn nội dung.
-
-![Đã lưu](../04-design/high-fidelity/16-da-luu.png){ width=42% } ![Cá nhân](../04-design/high-fidelity/17-ca-nhan.png){ width=42% }
-
-Hình 23. Đã lưu và trang cá nhân.
-
-![Nhập mã lỗi](../04-design/high-fidelity/18-nhap-ma-loi.png){ width=42% } ![Đã lưu rỗng](../04-design/high-fidelity/19-da-luu-rong.png){ width=42% }
-
-Hình 24. Nhập mã lỗi và danh sách rỗng.
