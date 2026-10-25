@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940">
+  <defs>
+    <style>
+      .box { fill:#f8fafc; stroke:#334155; stroke-width:2; rx:10; }
+      .goal { fill:#ede9fe; stroke:#6d28d9; stroke-width:3; rx:12; }
+      .sub { fill:#fff7ed; stroke:#c2410c; stroke-width:2; rx:10; }
+      .line { stroke:#64748b; stroke-width:2; fill:none; }
+      .title { font:700 22px Arial, sans-serif; fill:#0f172a; text-anchor:middle; }
+      .text { font:16px Arial, sans-serif; fill:#0f172a; text-anchor:middle; }
+      .small { font:15px Arial, sans-serif; fill:#334155; text-anchor:middle; }
+    </style>
+  </defs>
+  <rect class="goal" x="565" y="25" width="470" height="70"/>
+  <text class="title" x="800" y="54">0. Hoàn thành</text>
+  <text class="title" x="800" y="80">Premium Historical Tour</text>
+  <path class="line" d="M800 95 V145 M85 145 H1515"/>
+  <path class="line" d="M85 145 V180 M228 145 V180 M371 145 V180 M514 145 V180 M657 145 V180 M800 145 V180 M943 145 V180 M1086 145 V180 M1229 145 V180 M1372 145 V180 M1515 145 V180"/>
+  <rect class="box" x="20" y="180" width="130" height="65"/><text class="text" x="85" y="208">1. Chọn</text><text class="text" x="85" y="230">địa điểm</text>
+  <rect class="box" x="163" y="180" width="130" height="65"/><text class="text" x="228" y="208">2. Xem các</text><text class="text" x="228" y="230">tuyến</text>
+  <rect class="box" x="306" y="180" width="130" height="65"/><text class="text" x="371" y="208">3. Chọn</text><text class="text" x="371" y="230">tuyến</text>
+  <rect class="box" x="449" y="180" width="130" height="65"/><text class="text" x="514" y="208">4. Xem trước</text><text class="text" x="514" y="230">nội dung</text>
+  <rect class="box" x="592" y="180" width="130" height="65"/><text class="text" x="657" y="208">5. Kiểm tra</text><text class="text" x="657" y="230">trạng thái mua</text>
+  <rect class="box" x="735" y="180" width="130" height="65"/><text class="text" x="800" y="208">6. Chọn</text><text class="text" x="800" y="230">thời lượng</text>
+  <rect class="box" x="878" y="180" width="130" height="65"/><text class="text" x="943" y="208">7. Đi tới</text><text class="text" x="943" y="230">điểm hiện tại</text>
+  <rect class="box" x="1021" y="180" width="130" height="65"/><text class="text" x="1086" y="208">8. Mở</text><text class="text" x="1086" y="230">trải nghiệm</text>
+  <rect class="box" x="1164" y="180" width="130" height="65"/><text class="text" x="1229" y="208">9. Điểm</text><text class="text" x="1229" y="230">tiếp theo</text>
+  <rect class="box" x="1307" y="180" width="130" height="65"/><text class="text" x="1372" y="208">10. Hoàn thành</text><text class="text" x="1372" y="230">tuyến</text>
+  <rect class="box" x="1450" y="180" width="130" height="65"/><text class="text" x="1515" y="208">11. Xem</text><text class="text" x="1515" y="230">tóm tắt</text>
+  <path class="line" d="M657 245 V330 M565 330 H749 M565 330 V365 M749 330 V365"/>
+  <rect class="sub" x="485" y="365" width="160" height="60"/><text class="small" x="565" y="402">5.1 Đã mua</text>
+  <rect class="sub" x="659" y="365" width="180" height="60"/><text class="small" x="749" y="392">5.2 Chọn mua</text><text class="small" x="749" y="412">và thanh toán</text>
+  <path class="line" d="M1086 245 V500 M760 500 H1412 M760 500 V535 M1086 500 V535 M1412 500 V535"/>
+  <rect class="sub" x="650" y="535" width="220" height="60"/><text class="small" x="760" y="562">8.1 Nghe</text><text class="small" x="760" y="582">lời kể</text>
+  <rect class="sub" x="956" y="535" width="260" height="60"/><text class="small" x="1086" y="562">8.2 Âm thanh không gian / rung</text><text class="small" x="1086" y="582">nếu muốn</text>
+  <rect class="sub" x="1282" y="535" width="260" height="60"/><text class="small" x="1412" y="562">8.3 AR nếu khả dụng</text><text class="small" x="1412" y="582">hoặc phương án thay thế</text>
+  <path class="line" d="M1229 245 V680 H943 V255" stroke-dasharray="8 6"/>
+  <text class="small" x="1085" y="710">Lặp 7–9 cho đến khi hết tuyến tham quan</text>
+  <text class="small" x="800" y="840">Plan 0: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 (lặp 7–9) → 10 → 11</text>
+</svg>

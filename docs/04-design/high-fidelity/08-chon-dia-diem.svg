@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="08 Chọn địa điểm">
+<defs><clipPath id="screen"><rect width="390" height="844" rx="28"/></clipPath></defs>
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#F7F2E8"/>
+<text x="26" y="31" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="13" font-weight="700">9:41</text>
+<text x="329" y="31" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="700">●  ▰</text>
+<line x1="0" y1="48" x2="390" y2="48" stroke="#D8D0C3" stroke-width="1"/>
+<text x="22" y="82" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="31" font-weight="400">‹</text>
+<text x="54" y="79" fill="#1F2933" font-family="Noto Serif, Georgia, serif" font-size="17" font-weight="700">Chọn địa điểm</text>
+<text x="22" y="113" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">BƯỚC 1</text>
+<text x="22" y="150" fill="#1F2933" font-family="Noto Serif, Georgia, serif" font-size="23" font-weight="700">Bạn đang tham quan</text>
+<text x="22" y="181" fill="#1F2933" font-family="Noto Serif, Georgia, serif" font-size="23" font-weight="700">ở đâu?</text>
+<text x="22" y="211" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="13" font-weight="400">Chọn đúng nơi để xem nội dung phù hợp.</text>
+<rect x="22" y="233" width="346" height="80" rx="8" fill="#FFFDF8" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="260" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">⌖  Dùng vị trí hiện tại</text>
+<text x="38" y="282" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">Quyền vị trí được mô phỏng trong bản mẫu</text>
+<text x="195" y="347" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">hoặc tìm theo tên</text>
+<rect x="22" y="365" width="346" height="54" rx="8" fill="#FFFDF8" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="392" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">⌕  Nhập tên bảo tàng hoặc di tích</text>
+<text x="22" y="453" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">ĐỊA ĐIỂM GỢI Ý</text>
+<rect x="22" y="470" width="346" height="82" rx="8" fill="#F1E2DB" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="497" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">◉  Bảo tàng Dấu Xưa</text>
+<text x="38" y="519" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">4 câu chuyện · Cách 0,2 km</text>
+<rect x="22" y="565" width="346" height="82" rx="8" fill="#FFFDF8" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="592" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">○  Di tích Cổng Thành</text>
+<text x="38" y="614" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">3 câu chuyện · Cách 1,4 km</text>
+<rect x="22" y="685" width="346" height="50" rx="8" fill="#7A2E2E"/>
+<text x="195.0" y="717" fill="#FFFDF8" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Xác nhận địa điểm</text>
+<text x="22" y="756" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="400">Địa điểm và khoảng cách là dữ liệu minh họa.</text>
+</g></svg>

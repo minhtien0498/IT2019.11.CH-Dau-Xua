@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="15 Hoàn thành tour mẫu">
+<defs><clipPath id="screen"><rect width="390" height="844" rx="28"/></clipPath></defs>
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#F7F2E8"/>
+<text x="26" y="31" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="13" font-weight="700">9:41</text>
+<text x="329" y="31" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="700">●  ▰</text>
+<line x1="0" y1="48" x2="390" y2="48" stroke="#D8D0C3" stroke-width="1"/>
+<rect x="0" y="48" width="390" height="296" rx="0" fill="#542020"/>
+<circle cx="195" cy="116" r="36" fill="#C7923E"/>
+<text x="195" y="127" fill="#FFFDF8" font-family="Noto Sans, Arial, sans-serif" font-size="29" font-weight="700" text-anchor="middle">★</text>
+<text x="195" y="181" fill="#FFFDF8" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">KẾT THÚC PHẦN MINH HỌA</text>
+<text x="195" y="221" fill="#FFFDF8" font-family="Noto Serif, Georgia, serif" font-size="26" font-weight="700" text-anchor="middle">Bạn đã xem</text>
+<text x="195" y="256" fill="#FFFDF8" font-family="Noto Serif, Georgia, serif" font-size="23" font-weight="700" text-anchor="middle">điểm mẫu đầu tiên.</text>
+<text x="195" y="300" fill="#FFFDF8" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle">1/6 điểm của tuyến được minh họa</text>
+<rect x="22" y="366" width="346" height="90" rx="8" fill="#FFFDF8" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="393" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">1/6   Đã xem điểm mẫu</text>
+<text x="38" y="415" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">Những nhân chứng thầm lặng</text>
+<text x="22" y="497" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">ĐIỂM VỪA KHÁM PHÁ</text>
+<rect x="22" y="512" width="346" height="75" rx="8" fill="#FFFDF8" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="539" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">✓   Chiếc máy ảnh của người phóng viên</text>
+<text x="38" y="561" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">Điểm 1 · dữ liệu minh họa</text>
+<text x="22" y="622" fill="#542020" font-family="Noto Serif, Georgia, serif" font-size="15" font-weight="700">“Ký ức có thêm một người gìn giữ</text>
+<text x="22" y="645" fill="#542020" font-family="Noto Serif, Georgia, serif" font-size="15" font-weight="700">khi một câu chuyện được lắng nghe.”</text>
+<rect x="22" y="672" width="346" height="50" rx="8" fill="#7A2E2E"/>
+<text x="195.0" y="704" fill="#FFFDF8" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Xem lại câu chuyện</text>
+<text x="195" y="759" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Mô phỏng lưu tour  ·  Về trang chủ</text>
+<rect x="0" y="772" width="390" height="72" rx="0" fill="#FFFDF8"/>
+<line x1="0" y1="772" x2="390" y2="772" stroke="#D8D0C3" stroke-width="1"/>
+<text x="49" y="806" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="middle">⌂</text>
+<text x="49" y="827" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Khám phá</text>
+<text x="146" y="806" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="middle">◎</text>
+<text x="146" y="827" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Tour</text>
+<text x="243" y="806" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="middle">♡</text>
+<text x="243" y="827" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Đã lưu</text>
+<text x="340" y="806" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="24" font-weight="400" text-anchor="middle">◌</text>
+<text x="340" y="827" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Cá nhân</text>
+</g></svg>

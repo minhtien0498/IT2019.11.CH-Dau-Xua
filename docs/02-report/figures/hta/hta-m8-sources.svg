@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650">
+<defs><style>
+.box{fill:#f8fafc;stroke:#334155;stroke-width:2}.goal{fill:#e0f2fe;stroke:#0369a1;stroke-width:3}.sub{fill:#f0fdf4;stroke:#15803d;stroke-width:2}.line{stroke:#64748b;stroke-width:2;fill:none}.title{font:700 25px Arial,sans-serif;fill:#0f172a;text-anchor:middle}.text{font:20px Arial,sans-serif;fill:#0f172a;text-anchor:middle}.small{font:18px Arial,sans-serif;fill:#334155;text-anchor:middle}.plan{font:18px Arial,sans-serif;fill:#0f172a;text-anchor:middle}
+</style></defs>
+<rect class="goal" x="450" y="25" width="500" height="82" rx="14"/>
+<text class="title" x="700.0" y="52.0">0. Kiểm tra nguồn</text><text class="title" x="700.0" y="80.0">của nội dung lịch sử</text>
+<path class="line" d="M700 107 V155"/>
+<path class="line" d="M159.2 155 H1240.8"/>
+<path class="line" d="M159.2 155 V190"/>
+<rect class="box" x="35.0" y="190" width="248.4" height="78" rx="12"/>
+<text class="text" x="159.2" y="217.0">1. Mở</text><text class="text" x="159.2" y="241.0">câu chuyện</text>
+<path class="line" d="M429.6 155 V190"/>
+<rect class="box" x="305.4" y="190" width="248.4" height="78" rx="12"/>
+<text class="text" x="429.6" y="217.0">2. Chọn</text><text class="text" x="429.6" y="241.0">Nguồn</text>
+<path class="line" d="M700.0 155 V190"/>
+<rect class="box" x="575.8" y="190" width="248.4" height="78" rx="12"/>
+<text class="text" x="700.0" y="217.0">3. Xem thông tin</text><text class="text" x="700.0" y="241.0">biên tập</text>
+<path class="line" d="M970.4 155 V190"/>
+<rect class="box" x="846.2" y="190" width="248.4" height="78" rx="12"/>
+<text class="text" x="970.4" y="217.0">4. Mở chi tiết</text><text class="text" x="970.4" y="241.0">hoặc liên kết</text>
+<path class="line" d="M1240.8 155 V190"/>
+<rect class="box" x="1116.6" y="190" width="248.4" height="78" rx="12"/>
+<text class="text" x="1240.8" y="217.0">5. Quay lại</text><text class="text" x="1240.8" y="241.0">câu chuyện</text>
+<path class="line" d="M700.0 268 V350"/>
+<path class="line" d="M560.0 350 H840.0"/>
+<path class="line" d="M560.0 350 V385"/>
+<rect class="sub" x="435.0" y="385" width="250" height="76" rx="11"/>
+<text class="small" x="560.0" y="411.5">3.1 Xem</text><text class="small" x="560.0" y="434.5">trích dẫn</text>
+<path class="line" d="M840.0 350 V385"/>
+<rect class="sub" x="715.0" y="385" width="250" height="76" rx="11"/>
+<text class="small" x="840.0" y="411.5">3.2 Xem ghi chú</text><text class="small" x="840.0" y="434.5">biên tập</text>
+<text class="plan" x="700.0" y="565.0">Plan 0: 1 → 2 → 3; chọn 3.1 hoặc 3.2, thực hiện 4 nếu cần → 5.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844" role="img" aria-label="12 Xác nhận mua tour">
+<defs><clipPath id="screen"><rect width="390" height="844" rx="28"/></clipPath></defs>
+<g clip-path="url(#screen)">
+<rect x="0" y="0" width="390" height="844" rx="0" fill="#F7F2E8"/>
+<text x="26" y="31" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="13" font-weight="700">9:41</text>
+<text x="329" y="31" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="700">●  ▰</text>
+<line x1="0" y1="48" x2="390" y2="48" stroke="#D8D0C3" stroke-width="1"/>
+<text x="22" y="82" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="31" font-weight="400">‹</text>
+<text x="54" y="79" fill="#1F2933" font-family="Noto Serif, Georgia, serif" font-size="17" font-weight="700">Chi tiết tour</text>
+<rect x="0" y="96" width="390" height="676" rx="0" fill="#4A3B39"/>
+<rect x="0" y="160" width="390" height="684" rx="22" fill="#FFFDF8"/>
+<rect x="170" y="172" width="50" height="5" rx="3" fill="#D8D0C3"/>
+<text x="22" y="212" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">XÁC NHẬN MUA</text>
+<text x="22" y="247" fill="#1F2933" font-family="Noto Serif, Georgia, serif" font-size="22" font-weight="700">Những nhân chứng</text>
+<text x="22" y="275" fill="#1F2933" font-family="Noto Serif, Georgia, serif" font-size="22" font-weight="700">thầm lặng</text>
+<rect x="22" y="299" width="346" height="79" rx="8" fill="#FFFDF8" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="326" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">Premium Historical Tour</text>
+<text x="38" y="348" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">60 phút · 6 điểm · Dùng trọn đời</text>
+<text x="352" y="352" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">49.000đ</text>
+<text x="22" y="416" fill="#7A2E2E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">PHƯƠNG THỨC THANH TOÁN</text>
+<rect x="22" y="431" width="346" height="70" rx="8" fill="#F1E2DB" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="458" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">◉  Thẻ thanh toán</text>
+<text x="38" y="480" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">Visa ·•••• 2406</text>
+<rect x="22" y="511" width="346" height="70" rx="8" fill="#FFFDF8" stroke="#D8D0C3" stroke-width="1"/>
+<text x="38" y="538" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700">○  Ví điện tử</text>
+<text x="38" y="560" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="12" font-weight="400">Tài khoản mô phỏng</text>
+<line x1="22" y1="607" x2="368" y2="607" stroke="#D8D0C3" stroke-width="1"/>
+<text x="22" y="637" fill="#1F2933" font-family="Noto Sans, Arial, sans-serif" font-size="14" font-weight="400">Tổng thanh toán</text>
+<text x="368" y="637" fill="#7A2E2E" font-family="Noto Serif, Georgia, serif" font-size="20" font-weight="700" text-anchor="end">49.000đ</text>
+<rect x="22" y="667" width="346" height="50" rx="8" fill="#7A2E2E"/>
+<text x="195.0" y="699" fill="#FFFDF8" font-family="Noto Sans, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Thanh toán và bắt đầu</text>
+<text x="195" y="751" fill="#59636E" font-family="Noto Sans, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Giao dịch mô phỏng · Không trừ tiền thật</text>
+</g></svg>

@@ -1,0 +1,1122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2026-09-19T00:00:00.000Z" agent="Codex" version="24.7.17" type="device" compressed="false">
+  <diagram id="hta-1-hta-m1-select-location" name="HTA 1 - M1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Chọn đúng địa điểm&lt;br&gt;đang tham quan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Mở&lt;br&gt;Dấu Xưa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Tìm&lt;br&gt;địa điểm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="341.6" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Kiểm tra tên&lt;br&gt;và địa chỉ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="653.2" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Xác nhận&lt;br&gt;địa điểm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="964.8" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Xem danh sách&lt;br&gt;hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276.4" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="176.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="487.9" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1111.1" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1422.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="2.1 Dùng vị trí&lt;br&gt;hiện tại" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="95.9" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="2.2 Tìm kiếm&lt;br&gt;theo tên" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="365.9" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-3" value="2.3 Chọn từ&lt;br&gt;danh sách" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="635.9" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="217.9" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="487.9" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="757.9" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-2" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → 2 (chọn 2.1, 2.2 hoặc 2.3) → 3 → 4 → 5; sai địa điểm thì quay lại 2." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-2-hta-m2-open-exhibit" name="HTA 2 - M2">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Mở đúng nội dung&lt;br&gt;của một hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Chọn cách&lt;br&gt;mở hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Cung cấp&lt;br&gt;mã hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="341.6" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Ứng dụng&lt;br&gt;kiểm tra mã" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="653.2" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Kiểm tra tên&lt;br&gt;hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="964.8" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Mở&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276.4" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="176.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="487.9" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1111.1" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1422.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="1.1 Quét&lt;br&gt;mã QR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="50.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="1.2 Nhập mã&lt;br&gt;bằng tay" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-3" value="1.3 Chọn từ&lt;br&gt;danh sách" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="590.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="172.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="176.3" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="442.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="712.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-bus-1-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-4" target="child-1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 (chọn 1.1, 1.2 hoặc 1.3) → 2 → 3 → 4 → 5; không khớp thì quay lại 1." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-3-hta-m3-short-story" name="HTA 3 - M3">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Nghe câu chuyện ngắn&lt;br&gt;có âm thanh và hình ảnh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Mở&lt;br&gt;hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Xem phần&lt;br&gt;giới thiệu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="341.6" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Bắt đầu&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="653.2" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Trải nghiệm&lt;br&gt;nội dung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="964.8" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Kết thúc&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276.4" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="176.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="487.9" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1111.1" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1422.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="4.1 Nghe&lt;br&gt;lời kể" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="719.1" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="4.2 Xem ảnh&lt;br&gt;tư liệu" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="989.1" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-3" value="4.3 Đọc bản chép lời&lt;br&gt;nếu cần" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1259.1" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="841.1" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1111.1" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1381.1" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-4" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → 2 → 3 → 4; thực hiện 4.1 và 4.2, dùng 4.3 khi cần → 5." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-4-hta-m4-player-controls" name="HTA 4 - M4">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Điều khiển&lt;br&gt;trình phát câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Mở&lt;br&gt;trình phát" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Phát hoặc&lt;br&gt;tạm dừng" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="341.6" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Điều chỉnh&lt;br&gt;vị trí nghe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="653.2" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Theo dõi&lt;br&gt;tiến độ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="964.8" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Bỏ qua hoặc&lt;br&gt;kết thúc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276.4" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="176.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="487.9" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1111.1" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1422.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="3.1 Tua&lt;br&gt;lùi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="3.2 Tua&lt;br&gt;tới" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="677.5" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-3" value="3.3 Kéo thanh&lt;br&gt;tiến độ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="947.5" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="529.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1069.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-3" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → lặp 2–4 theo nhu cầu → 5; tại 3 chọn 3.1, 3.2 hoặc 3.3." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-5-hta-m5-audio-description" name="HTA 5 - M5">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Truy cập mô tả&lt;br&gt;của hiện vật và hình ảnh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Mở&lt;br&gt;hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Tìm mục&lt;br&gt;mô tả" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="341.6" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Chọn dạng&lt;br&gt;mô tả" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="653.2" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Nghe hoặc&lt;br&gt;đọc mô tả" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="964.8" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Tiếp tục&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276.4" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="176.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="487.9" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1111.1" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1422.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="3.1 Mô tả&lt;br&gt;âm thanh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="3.2 Mô tả chữ&lt;br&gt;cho hình ảnh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="664.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="934.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-3" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → 2 → 3 (chọn 3.1 hoặc 3.2) → 4 → 5; có thể dùng cả hai dạng." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-6-hta-m6-screen-reader" name="HTA 6 - M6">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Hoàn thành luồng chính&lt;br&gt;bằng trình đọc màn hình" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Bật VoiceOver&lt;br&gt;hoặc TalkBack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Chọn&lt;br&gt;địa điểm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="289.7" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Chọn&lt;br&gt;hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="549.3" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Mở&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="809.0" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Điều khiển&lt;br&gt;phát" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1068.7" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-6" value="6. Chọn nội dung&lt;br&gt;tiếp theo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1328.3" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="150.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="410.0" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="669.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="929.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-6" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1189.0" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-7" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1448.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="goal-bus-junction-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-6" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-6" target="goal-bus-junction-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-6" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-6" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-7" target="step-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="3.1 Duyệt&lt;br&gt;danh sách" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="412.7" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="3.2 Nhập&lt;br&gt;mã hiện vật" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="682.7" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="534.7" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="669.7" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="804.7" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-3" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → 2 → 3 (chọn 3.1 hoặc 3.2) → 4 → 5 → 6; dùng nhãn và tiêu điểm ở mọi bước." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-7-hta-m7-haptics" name="HTA 7 - M7">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Thiết lập và sử dụng&lt;br&gt;tín hiệu rung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Mở cài đặt&lt;br&gt;trợ năng" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Tìm mục&lt;br&gt;Tín hiệu rung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="289.7" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Chọn&lt;br&gt;trạng thái" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="549.3" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Phát&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="809.0" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Nhận rung tại&lt;br&gt;mốc ý nghĩa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1068.7" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-6" value="6. Thay đổi lại&lt;br&gt;nếu cần" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1328.3" y="190.0" width="241.7" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="150.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="410.0" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="669.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="929.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-6" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1189.0" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-7" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1448.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="goal-bus-junction-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-6" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-6" target="goal-bus-junction-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-6" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-6" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-7" target="step-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="3.1 Bật&lt;br&gt;tín hiệu rung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="412.7" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="3.2 Tắt&lt;br&gt;tín hiệu rung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="682.7" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="534.7" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="669.7" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="804.7" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-3" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → 2 → 3 (chọn 3.1 hoặc 3.2) → 4; nếu bật thì 5; có thể thực hiện 6 bất cứ lúc nào." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-8-hta-m8-sources" name="HTA 8 - M8">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Kiểm tra nguồn&lt;br&gt;của nội dung lịch sử" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Mở&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Chọn&lt;br&gt;Nguồn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="341.6" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Xem thông tin&lt;br&gt;biên tập" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="653.2" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Mở chi tiết&lt;br&gt;hoặc liên kết" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="964.8" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Quay lại&lt;br&gt;câu chuyện" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276.4" y="190.0" width="293.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="176.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="487.9" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1111.1" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1422.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="3.1 Xem&lt;br&gt;trích dẫn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="3.2 Xem ghi chú&lt;br&gt;biên tập" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="812.5" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="664.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="934.5" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-3" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → 2 → 3; chọn 3.1 hoặc 3.2, thực hiện 4 nếu cần → 5." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hta-9-hta-premium" name="HTA 9 - Premium Historical Tour">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="goal" value="0. Hoàn thành&lt;br&gt;Premium Historical Tour" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;strokeWidth=3;fontFamily=Arial;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="30.0" width="600.0" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1" value="1. Chọn&lt;br&gt;địa điểm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30.0" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2" value="2. Xem các&lt;br&gt;tuyến" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="171.6" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3" value="3. Chọn&lt;br&gt;tuyến" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="313.3" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-4" value="4. Xem trước&lt;br&gt;nội dung" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="454.9" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-5" value="5. Kiểm tra&lt;br&gt;trạng thái mua" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="596.5" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-6" value="6. Chọn&lt;br&gt;thời lượng" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="738.2" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-7" value="7. Đi tới&lt;br&gt;điểm hiện tại" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="879.8" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-8" value="8. Mở&lt;br&gt;trải nghiệm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1021.5" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-9" value="9. Điểm&lt;br&gt;tiếp theo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1163.1" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-10" value="10. Hoàn thành&lt;br&gt;tuyến" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1304.7" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="step-11" value="11. Xem&lt;br&gt;tóm tắt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1446.4" y="190.0" width="123.6" height="80.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="91.3" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="233.0" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="374.6" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="516.2" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-5" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="657.9" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-6" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="799.5" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-7" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="941.1" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-8" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1082.8" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-9" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1224.4" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-10" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1366.0" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-junction-11" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1507.7" y="149.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal" target="goal-bus-junction-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="goal-bus-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="goal-bus-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="goal-bus-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="goal-bus-junction-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="goal-bus-junction-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-6" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-6" target="goal-bus-junction-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-7" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-7" target="goal-bus-junction-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-8" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-8" target="goal-bus-junction-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-9" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-9" target="goal-bus-junction-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-bus-10" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-10" target="goal-bus-junction-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-1" target="step-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-2" target="step-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-3" target="step-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-4" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-4" target="step-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-5" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-5" target="step-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-6" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-6" target="step-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-7" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-7" target="step-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-8" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-8" target="step-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-9" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-9" target="step-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-10" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-10" target="step-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="goal-bus-target-11" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="goal-bus-junction-11" target="step-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-1" value="5.1 Đã mua" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="285.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-1-2" value="5.2 Chọn mua&lt;br&gt;và thanh toán" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="555.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="407.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="657.9" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="677.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-5" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-bus-1-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-2" target="child-bus-1-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-1" target="child-1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-1-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-1-junction-3" target="child-1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-2-1" value="8.1 Nghe&lt;br&gt;lời kể" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="765.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-2-2" value="8.2 Âm thanh không gian&lt;br&gt;hoặc rung nếu muốn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1035.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-2-3" value="8.3 AR nếu khả dụng&lt;br&gt;hoặc phương án thay thế" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1305.0" y="400.0" width="245.0" height="76.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-junction-1" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="887.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-junction-2" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1082.8" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-junction-3" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1157.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-junction-4" value="" style="ellipse;html=1;fillOpacity=0;strokeOpacity=0;opacity=0;resizable=0;movable=0;deletable=0;" vertex="1" parent="1">
+          <mxGeometry x="1427.0" y="349.5" width="1.0" height="1.0" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-source" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="step-8" target="child-bus-2-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-bus-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-2-junction-1" target="child-bus-2-junction-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-bus-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-2-junction-2" target="child-bus-2-junction-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-bus-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-2-junction-3" target="child-bus-2-junction-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-target-1" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-2-junction-1" target="child-2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-target-2" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-2-junction-3" target="child-2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="child-bus-2-target-3" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;strokeWidth=2;strokeColor=#64748B;" edge="1" parent="1" source="child-bus-2-junction-4" target="child-2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note-1" value="Lặp bước 7–9 cho đến khi hết tuyến tham quan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontFamily=Arial;fontSize=15;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500.0" y="535.0" width="600.0" height="45.0" as="geometry" />
+        </mxCell>
+        <mxCell id="plan" value="Plan 0: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 (lặp 7–9) → 10 → 11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;dashed=1;fontFamily=Arial;fontSize=16;fontStyle=2;fontColor=#334155;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100.0" y="660.0" width="1400.0" height="65.0" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
