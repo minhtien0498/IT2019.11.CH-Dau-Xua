@@ -1,75 +1,99 @@
 #!/usr/bin/env python3
-"""Xuất PDF khổ A4 từ DOCX bằng Quick Look và Chrome trên macOS."""
+"""Xuất PDF từ tài liệu đang mở trong Microsoft Word trên macOS."""
 
 from __future__ import annotations
 
 import argparse
+import os
+import shutil
 import subprocess
 import tempfile
+import time
+import uuid
 from pathlib import Path
 
 
-CHROME = Path("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
-A4_PRINT_STYLE = """
-<style id="dau-xua-print-style">
-@page {
-    size: A4;
-    margin: 0 0 10mm;
-    @bottom-center {
-        content: counter(page);
-        font-family: "Times New Roman", serif;
-        font-size: 10pt;
-    }
-}
-tr, table, img { break-inside: avoid; }
-p:has(+ table) { break-after: avoid; }
-p:has(img) { break-inside: avoid; break-after: avoid; }
-p:has(a[name="tài-liệu-tham-khảo"]) { break-before: page; }
-</style>
-"""
+WORD_CONTAINER = Path.home() / "Library/Containers/com.microsoft.Word/Data/Documents"
+DOCUMENT_PATH_SCRIPT = r'''
+on run argv
+    tell application "Microsoft Word"
+        if exists document (item 1 of argv) then
+            set documentPath to full name of document (item 1 of argv)
+            return POSIX path of (documentPath as alias)
+        end if
+    end tell
+    return ""
+end run
+'''
+EXPORT_SCRIPT = r'''
+on run argv
+    set pdfPath to (POSIX file (item 2 of argv)) as text
+    tell application "Microsoft Word"
+        with timeout of 180 seconds
+            save as document (item 1 of argv) file name pdfPath file format format PDF
+        end timeout
+    end tell
+end run
+'''
 
 
-def run(command: list[str]) -> None:
-    subprocess.run(command, check=True)
+def word_script(script: str, *args: str) -> str:
+    result = subprocess.run(
+        ["osascript", "-", *args],
+        input=script,
+        text=True,
+        capture_output=True,
+        check=True,
+    )
+    return result.stdout.strip()
+
+
+def ensure_document_open(source: Path) -> None:
+    for attempt in range(16):
+        opened = word_script(DOCUMENT_PATH_SCRIPT, source.name)
+        if opened:
+            if not os.path.samefile(opened, source):
+                raise RuntimeError(
+                    f"Word đang mở tài liệu khác cùng tên: {opened}. "
+                    "Hãy đóng tài liệu đó rồi chạy lại."
+                )
+            return
+        if attempt == 0:
+            subprocess.run(["open", "-a", "Microsoft Word", str(source)], check=True)
+        time.sleep(1)
+    raise RuntimeError(f"Word chưa mở được tài liệu: {source}. Hãy mở file trong Word rồi chạy lại.")
 
 
 def export_pdf(source: Path, destination: Path) -> None:
-    if not source.is_file():
-        raise FileNotFoundError(f"Không tìm thấy file nguồn: {source}")
-    if not CHROME.is_file():
-        raise FileNotFoundError(f"Không tìm thấy Google Chrome: {CHROME}")
+    source = source.resolve(strict=True)
+    destination = destination.resolve()
+    if source.suffix.lower() != ".docx":
+        raise ValueError("File nguồn phải là DOCX")
+    if not WORD_CONTAINER.is_dir():
+        raise FileNotFoundError("Không tìm thấy Microsoft Word hoặc thư mục dữ liệu của ứng dụng")
 
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix="dau-xua-pdf-") as temp_name:
-        temp_dir = Path(temp_name)
-        run(["qlmanage", "-p", "-o", str(temp_dir), str(source.resolve())])
+    ensure_document_open(source)
+    word_pdf = WORD_CONTAINER / f"codex-word-export-{uuid.uuid4().hex}.pdf"
+    try:
+        word_script(EXPORT_SCRIPT, source.name, str(word_pdf))
+        if not word_pdf.is_file() or word_pdf.stat().st_size < 1000:
+            raise RuntimeError("Microsoft Word không tạo được PDF")
+        with word_pdf.open("rb") as pdf_file:
+            if pdf_file.read(4) != b"%PDF":
+                raise RuntimeError("File Word xuất ra không phải PDF hợp lệ")
 
-        preview_files = list(temp_dir.rglob("Preview.html"))
-        if len(preview_files) != 1:
-            raise RuntimeError("Quick Look không tạo được một file Preview.html duy nhất")
-
-        preview = preview_files[0]
-        html = preview.read_text(encoding="utf-8")
-        if "</head>" not in html:
-            raise RuntimeError("Không tìm thấy phần head trong bản xem trước")
-        preview.write_text(
-            html.replace("</head>", f"{A4_PRINT_STYLE}</head>", 1),
-            encoding="utf-8",
-        )
-
-        run(
-            [
-                str(CHROME),
-                "--headless",
-                "--disable-gpu",
-                "--no-pdf-header-footer",
-                f"--print-to-pdf={destination.resolve()}",
-                preview.as_uri(),
-            ]
-        )
-
-    if not destination.is_file() or destination.stat().st_size == 0:
-        raise RuntimeError("File PDF không được tạo thành công")
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile(
+            prefix=".word-export-", suffix=".pdf", dir=destination.parent, delete=False
+        ) as staging_file:
+            staging = Path(staging_file.name)
+        try:
+            shutil.copy2(word_pdf, staging)
+            staging.replace(destination)
+        finally:
+            staging.unlink(missing_ok=True)
+    finally:
+        word_pdf.unlink(missing_ok=True)
 
 
 def main() -> None:
@@ -78,7 +102,7 @@ def main() -> None:
     parser.add_argument("destination", type=Path, help="File PDF đầu ra")
     args = parser.parse_args()
     export_pdf(args.source, args.destination)
-    print(f"Đã tạo: {args.destination}")
+    print(f"Đã xuất từ Microsoft Word: {args.destination}")
 
 
 if __name__ == "__main__":

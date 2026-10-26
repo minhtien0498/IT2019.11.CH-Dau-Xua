@@ -71,15 +71,15 @@ Mốc từ phần mở đầu đến hết Mục 2.4 có hạn nộp ngày 19/09
 
 ## Xuất bản PDF để nộp
 
-Trên macOS có cài Google Chrome, chạy lệnh sau từ thư mục gốc:
+Trên macOS có cài Microsoft Word, chạy lệnh sau từ thư mục gốc:
 
 ```bash
 python3 scripts/export_submission_pdf.py \
-  "docs/03-submission/finalreport_ToHuynhMinhTien_250201095.docx" \
+  "docs/02-report/Dau_Xua_Final_Report.docx" \
   "docs/03-submission/finalreport_ToHuynhMinhTien_250201095.pdf"
 ```
 
-Script xuất PDF khổ A4, giữ hình và bảng, đồng thời thêm số trang ở giữa chân trang. PDF dùng Quick Look và Chrome để kết xuất nên số trang có thể khác khi mở DOCX trực tiếp trong Microsoft Word; hãy đánh giá bố cục bản Word bằng Word.
+Script mở DOCX bằng Microsoft Word nếu cần, xuất PDF bằng chính Word rồi chuyển vào thư mục nộp. Bản PDF A4 hiện có 23 trang theo cách Word phân trang; số trang, hình và liên kết lấy từ bản Word. Nếu Word không tự mở file, hãy mở DOCX trong Word rồi chạy lại lệnh.
 
 ## Chạy prototype
 

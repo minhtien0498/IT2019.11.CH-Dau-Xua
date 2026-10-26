@@ -70,15 +70,18 @@ Cập nhật gần nhất: 2026-10-26
 
 ## Báo cáo cuối kỳ
 
-- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.974 từ hiển thị, thấp hơn giới hạn 2.000 từ.
+- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.971 từ hiển thị, thấp hơn giới hạn 2.000 từ.
 - [x] Đưa đủ 22 màn hình mockup Figma vào Mục 2.6 và ghi mã frame 01–22 trong chú thích Hình 14–24; đồng bộ nguồn Markdown, Word và bản PDF A4 trong `docs/03-submission/`.
 - [x] Đặt tên hai file nộp `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp; kiểm tra file sau khi đổi tên.
 - [x] Thêm Mục 2.7 với liên kết Figma mockup, phác thảo và mã nguồn; cập nhật Word/PDF, kiểm tra liên kết bấm được.
 - [x] Đưa mã nguồn, tài liệu thiết kế và báo cáo lên repo GitHub `IT2019.11.CH-Dau-Xua`; liên kết repo đã có trong Mục 2.7 của Word/PDF.
 - [x] Bỏ dòng demo theo yêu cầu; tạo lại Word không có ngắt trang thủ công và đồng bộ PDF.
+- [x] Xuất lại PDF cuối kỳ trực tiếp từ Microsoft Word; kiểm tra 23 trang A4, hình mockup, số trang và ba liên kết Figma/GitHub.
 
 ## Nhật ký hoàn thành
 
+- 2026-10-26: Biên tập ba đoạn tại Mục 1.2, 1.4 và phần dẫn Mục 2 để bỏ cách diễn đạt gượng và câu chung chung. Giữ nguyên ý, cấu trúc, bảng, hình và nguồn; đồng bộ Markdown, Word và bản nộp PDF xuất trực tiếp từ Word. Kiểm tra khoảng 1.971 từ, DOCX có 35 hình và 8 bảng, PDF A4 có 23 trang và ba liên kết còn hoạt động.
+- 2026-10-26: Thay quy trình kết xuất Quick Look/Chrome bằng lệnh xuất PDF của Microsoft Word. Bản nộp PDF mới có 23 trang A4 đúng theo phân trang Word; đã xem toàn bộ trang, kiểm tra 22 mockup trong Mục 2.6 và ba liên kết ở Mục 2.7. DOCX và nội dung báo cáo không thay đổi.
 - 2026-10-26: Ghi mã frame Figma cho từng cặp Hình 14–24 để đối chiếu trực tiếp từ báo cáo sang file thiết kế. Kiểm tra đủ 22 mã duy nhất, không thiếu frame; Word/PDF đồng bộ, PDF A4 13 trang và văn bản hiển thị khoảng 1.974 từ.
 - 2026-10-25: Chuyển 14 màn hình từ phụ lục lên Mục 2.6 ngay sau tám màn hình tiêu biểu, bỏ mục phụ lục để bộ mockup nằm liền trong thân bài. Đối chiếu 22/22 ảnh không trùng, Word có 35 ảnh nhúng và 24 chú thích, PDF A4 vẫn 13 trang; kiểm tra trực quan trang chuyển hình, trang liên kết và trang tài liệu tham khảo. Văn bản hiển thị khoảng 1.941 từ.
 - 2026-10-25: Bổ sung 14 mockup mức cao còn thiếu vào phụ lục theo bảy cặp hình, giữ tám màn hình tiêu biểu trong Mục 2.6. Đối chiếu đủ 22/22 PNG nguồn, không trùng hình; Word có 35 ảnh nhúng, 24 chú thích hình và không có ngắt trang thủ công. PDF A4 có 13 trang; đã xem các trang phụ lục và kiểm tra ảnh đi cùng chú thích. Văn bản hiển thị khoảng 1.943 từ.

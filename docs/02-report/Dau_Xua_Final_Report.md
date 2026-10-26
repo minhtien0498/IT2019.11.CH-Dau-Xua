@@ -14,7 +14,7 @@ Dấu Xưa là ứng dụng di động hỗ trợ tham quan bảo tàng và di t
 
 ## 1.2. Người dùng mục tiêu
 
-Thiết kế xem xét sinh viên đi theo nhóm, phụ huynh tham quan cùng gia đình và người khiếm thị dùng trình đọc màn hình. Họ lần lượt cần nội dung nhanh, tuyến theo thời lượng và cách mở hiện vật không phụ thuộc camera. Đây là các giả định thiết kế; chưa có phỏng vấn hoặc kiểm thử với đại diện ba nhóm. W3C khuyến nghị đưa người khuyết tật vào quá trình đánh giá khả năng tiếp cận.
+Báo cáo tập trung vào ba nhóm: sinh viên đi theo nhóm cần nội dung ngắn; phụ huynh tham quan cùng gia đình cần tuyến theo thời lượng; người khiếm thị dùng trình đọc màn hình cần mở hiện vật không phụ thuộc camera. Đây là các giả định thiết kế vì chưa phỏng vấn hoặc kiểm thử ba nhóm. W3C khuyến nghị đưa người khuyết tật vào quá trình đánh giá khả năng tiếp cận.
 
 ## 1.3. Chức năng của ứng dụng
 
@@ -27,11 +27,11 @@ Luồng miễn phí gồm chọn địa điểm, mở hiện vật, nghe chuyệ
 | Smartify | Nhận diện tác phẩm, phát thuyết minh; phạm vi nhận diện phụ thuộc đối tác và bản quyền. | Có lối mở bằng QR, mã và danh sách. |
 | Bloomberg Connects | Hướng dẫn văn hóa miễn phí; công bố hỗ trợ VoiceOver, phụ đề, bản chép lời và cỡ chữ. | Đưa trợ năng vào luồng miễn phí. |
 
-Đối chiếu dựa trên chức năng do hai sản phẩm công bố, chưa phải kiểm thử trực tiếp. Dấu Xưa tập trung vào chuyện ngắn tại di sản Việt Nam; giá trị của hướng này vẫn cần kiểm chứng.
+Việc đối chiếu dựa trên chức năng do hai sản phẩm công bố, chưa qua kiểm thử trực tiếp. Dấu Xưa chọn cách kể chuyện ngắn tại di sản Việt Nam; cách tiếp cận này chưa được kiểm thử với khách tham quan.
 
 # 2. Thiết kế trải nghiệm người dùng
 
-Quy trình UCD đi từ chân dung và kịch bản đến yêu cầu, HTA, phác thảo và rà soát giao diện. Các bước đánh giá người dùng thật chưa được thực hiện.
+Các bước UCD trong báo cáo gồm chân dung, kịch bản, yêu cầu, HTA, phác thảo và rà soát giao diện. Chưa có bước đánh giá với người dùng.
 
 ## 2.1. Chân dung người dùng
 
