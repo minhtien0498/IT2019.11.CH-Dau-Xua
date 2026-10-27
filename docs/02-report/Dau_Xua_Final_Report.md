@@ -33,7 +33,7 @@ Việc đối chiếu dựa trên chức năng do hai sản phẩm công bố, c
 
 # 2. Thiết kế trải nghiệm người dùng
 
-Quy trình UCD tham khảo bộ slide môn học (Vi Chí Thành, 2026a–g), gồm chân dung, kịch bản, yêu cầu, HTA, phác thảo và rà soát giao diện.
+Quy trình UCD tham khảo bộ slide môn học (Vi Chi Thanh, 2026a–g), gồm chân dung, kịch bản, yêu cầu, HTA, phác thảo và rà soát giao diện.
 
 ## 2.1. Chân dung người dùng
 
@@ -277,19 +277,19 @@ Nielsen, Jakob (1994, rà soát năm 2024), *10 Usability Heuristics for User In
 
 Smartify (2026), *Smartify: Arts and Culture*. Truy cập ngày 12/09/2026 tại <https://play.google.com/store/apps/details?id=com.mobgen.smartify>.
 
-Vi Chí Thành (2026a), *What is HCI* [slide tuần 1].
+Vi Chi Thanh (2026a), *Week 1: What is HCI*. Tài liệu môn học, University of Information Technology.
 
-Vi Chí Thành (2026b), *Introduction to User-Centred Design Methods* [slide tuần 2].
+Vi Chi Thanh (2026b), *Week 2: Introduction to User-Centred Design Methods*. Tài liệu môn học, University of Information Technology và Birmingham City University.
 
-Vi Chí Thành (2026c), *Introduction to Accessibility and Inclusive Design* [slide tuần 3].
+Vi Chi Thanh (2026c), *Week 3: Introduction to Accessibility and Inclusive Design*. Tài liệu môn học, University of Information Technology và Birmingham City University.
 
-Vi Chí Thành (2026d), *Interaction Design and Usability* [slide tuần 4].
+Vi Chi Thanh (2026d), *Week 4: Interaction Design and Usability*. Tài liệu môn học, University of Information Technology và Birmingham City University.
 
-Vi Chí Thành (2026e), *Information Architecture and Navigation Design* [slide tuần 5].
+Vi Chi Thanh (2026e), *Week 5: Information Architecture and Navigation Design*. Tài liệu môn học, University of Information Technology và Birmingham City University.
 
-Vi Chí Thành (2026f), *Introduction to Visual Design Principles* [slide tuần 6].
+Vi Chi Thanh (2026f), *Week 6: Introduction to Visual Design Principles*. Tài liệu môn học, International University, School of Computer Science and Engineering.
 
-Vi Chí Thành (2026g), *User Testing and Evaluation Methods* [slide tuần 8].
+Vi Chi Thanh (2026g), *Week 8: User Testing and Evaluation Methods*. Tài liệu môn học, International University, School of Computer Science and Engineering.
 
 W3C Web Accessibility Initiative (2024), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
 
