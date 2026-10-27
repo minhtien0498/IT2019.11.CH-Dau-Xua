@@ -13,6 +13,7 @@ Ghi nhận ngày 24/10/2026 theo nội dung người học cung cấp trong cu�
 - Đưa **hình ảnh từ Figma vào báo cáo**, **không cần nộp file Figma riêng**.
 - **Không cần demo**; dùng hình ảnh trong báo cáo.
 - Tên file nộp theo cấu trúc: **`finalreport_tên_mssv`**. Chưa có quy định được ghi nhận về đuôi file hoặc cách viết tên. Người học đã cung cấp MSSV `250201095` ngày 25/10/2026.
+- Giảng viên: **TS. Vi Chí Thành** (người học cung cấp ngày 27/10/2026).
 
 ## Trạng thái
 

@@ -1,7 +1,9 @@
 ---
 title: "DẤU XƯA"
 subtitle: "Báo cáo Thiết kế trải nghiệm người dùng"
-author: "Học viên: Tô Huỳnh Minh Tiến"
+author:
+  - "Học viên: Tô Huỳnh Minh Tiến"
+  - "Giảng viên: TS. Vi Chí Thành"
 date: "Tháng 10 năm 2026"
 lang: vi-VN
 ---

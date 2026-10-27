@@ -80,6 +80,7 @@ Cập nhật gần nhất: 2026-10-27
 
 ## Nhật ký hoàn thành
 
+- 2026-10-27: Bổ sung tên giảng viên TS. Vi Chí Thành vào đầu báo cáo cuối kỳ theo thông tin người học cung cấp; đồng bộ Markdown, hai bản Word và PDF xuất từ Word. Kiểm tra dòng tên xuất hiện ở trang đầu PDF, bản PDF vẫn 23 trang A4, 35 hình và 8 bảng được giữ nguyên.
 - 2026-10-27: Bỏ ba câu lặp về giới hạn đánh giá và xác thực chân dung trong báo cáo cuối kỳ; giữ nội dung về giới hạn nghiên cứu ở Mục 1.2 và phần kết luận. Đồng bộ Markdown, Word và bản nộp; bản văn hiển thị khoảng 1.933 từ.
 - 2026-10-27: Bỏ câu nhận xét về phác thảo giấy và wireframe medium-fi trong Mục 2.5 của báo cáo cuối kỳ theo yêu cầu người học; giữ câu mô tả ba phác thảo số. Đồng bộ Markdown, hai bản DOCX và PDF xuất từ Word; kiểm tra câu đã xóa không còn, 35 hình nhúng, PDF A4 23 trang và ba liên kết còn nguyên. Bản văn hiển thị khoảng 1.959 từ.
 - 2026-10-26: Biên tập ba đoạn tại Mục 1.2, 1.4 và phần dẫn Mục 2 để bỏ cách diễn đạt gượng và câu chung chung. Giữ nguyên ý, cấu trúc, bảng, hình và nguồn; đồng bộ Markdown, Word và bản nộp PDF xuất trực tiếp từ Word. Kiểm tra khoảng 1.971 từ, DOCX có 35 hình và 8 bảng, PDF A4 có 23 trang và ba liên kết còn hoạt động.
