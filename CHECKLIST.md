@@ -70,7 +70,7 @@ Cập nhật gần nhất: 2026-10-27
 
 ## Báo cáo cuối kỳ
 
-- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và các nguồn tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.985 từ hiển thị, thấp hơn giới hạn 2.000 từ.
+- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và các nguồn tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.987 từ hiển thị, thấp hơn giới hạn 2.000 từ.
 - [x] Đưa đủ 22 màn hình mockup Figma vào Mục 2.6 và ghi mã frame 01–22 trong chú thích Hình 14–24; đồng bộ nguồn Markdown, Word và bản PDF A4 trong `docs/03-submission/`.
 - [x] Đặt tên hai file nộp `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp; kiểm tra file sau khi đổi tên.
 - [x] Thêm Mục 2.7 với liên kết Figma mockup, phác thảo và mã nguồn; cập nhật Word/PDF, kiểm tra liên kết bấm được.
@@ -80,6 +80,7 @@ Cập nhật gần nhất: 2026-10-27
 
 ## Nhật ký hoàn thành
 
+- 2026-10-27: Theo yêu cầu người học, tách bảy slide môn học thành bảy mục tham khảo độc lập của Vi Chí Thành (2026a–g), ghi đúng tuần trên trang bìa, gồm slide tuần 8 trong tệp 07. Cập nhật dẫn chiếu thân bài và đồng bộ Markdown, hai bản Word, PDF. Kiểm tra khoảng 1.987 từ theo Pandoc, 1.903 từ theo Word, PDF A4 23 trang, 35 hình và 8 bảng.
 - 2026-10-27: Đọc trang bìa bảy PDF trong `docs/00-yeu-cau-tung-tuan/slide/` và liệt kê tên từng bài giảng trong mục tham khảo báo cáo cuối kỳ. Tệp 07 ghi “Week 08” trên bìa nên dẫn là Tuần 8 (tệp 07), không tự gọi Tuần 7. Đồng bộ Markdown, hai bản Word và PDF; kiểm tra bản văn Markdown khoảng 1.985 từ, Word 1.892 từ, PDF A4 23 trang, 35 hình và 8 bảng.
 - 2026-10-27: Chuẩn hóa mục tham khảo bộ slide của TS. Vi Chí Thành theo tên học phần, loại tài liệu và cơ sở đào tạo thể hiện trên slide gốc. Đồng bộ Markdown, hai bản Word và PDF; kiểm tra khoảng 1.934 từ hiển thị, PDF A4 23 trang, 35 hình và 8 bảng.
 - 2026-10-27: Theo xác nhận của người học rằng báo cáo tham khảo cả bộ slide môn học, gộp hai mục bài giảng tuần 2–3 thành một mục nguồn chung của TS. Vi Chí Thành (2026) và dẫn chiếu tại phần quy trình UCD. Workspace chỉ lưu hai tệp slide gốc, nên không liệt kê tên các tuần khác. Đồng bộ Markdown, Word và PDF; kiểm tra khoảng 1.926 từ hiển thị, PDF A4 23 trang, 35 hình và 8 bảng.

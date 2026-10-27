@@ -33,7 +33,7 @@ Việc đối chiếu dựa trên chức năng do hai sản phẩm công bố, c
 
 # 2. Thiết kế trải nghiệm người dùng
 
-Quy trình UCD tham khảo bộ slide môn học (Vi Chí Thành, 2026), gồm chân dung, kịch bản, yêu cầu, HTA, phác thảo và rà soát giao diện.
+Quy trình UCD tham khảo bộ slide môn học (Vi Chí Thành, 2026a–g), gồm chân dung, kịch bản, yêu cầu, HTA, phác thảo và rà soát giao diện.
 
 ## 2.1. Chân dung người dùng
 
@@ -277,15 +277,19 @@ Nielsen, Jakob (1994, rà soát năm 2024), *10 Usability Heuristics for User In
 
 Smartify (2026), *Smartify: Arts and Culture*. Truy cập ngày 12/09/2026 tại <https://play.google.com/store/apps/details?id=com.mobgen.smartify>.
 
-Vi Chí Thành (2026), *Tương tác người – máy* [bộ slide bài giảng]. Trường Đại học Công nghệ Thông tin, ĐHQG-HCM. Các bài giảng:
+Vi Chí Thành (2026a), *What is HCI* [slide tuần 1].
 
-- Tuần 1: *What is HCI*.
-- Tuần 2: *Introduction to User-Centred Design Methods*.
-- Tuần 3: *Introduction to Accessibility and Inclusive Design*.
-- Tuần 4: *Interaction Design and Usability*.
-- Tuần 5: *Information Architecture and Navigation Design*.
-- Tuần 6: *Introduction to Visual Design Principles*.
-- Tuần 8 (tệp 07): *User Testing and Evaluation Methods*.
+Vi Chí Thành (2026b), *Introduction to User-Centred Design Methods* [slide tuần 2].
+
+Vi Chí Thành (2026c), *Introduction to Accessibility and Inclusive Design* [slide tuần 3].
+
+Vi Chí Thành (2026d), *Interaction Design and Usability* [slide tuần 4].
+
+Vi Chí Thành (2026e), *Information Architecture and Navigation Design* [slide tuần 5].
+
+Vi Chí Thành (2026f), *Introduction to Visual Design Principles* [slide tuần 6].
+
+Vi Chí Thành (2026g), *User Testing and Evaluation Methods* [slide tuần 8].
 
 W3C Web Accessibility Initiative (2024), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
 
