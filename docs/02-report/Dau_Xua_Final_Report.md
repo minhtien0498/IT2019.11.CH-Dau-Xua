@@ -193,7 +193,7 @@ Hình 10. Sitemap của ứng dụng.
 
 ### 2.5.2. Bản phác thảo số low-fi dựa trên HTA
 
-Ba phác thảo số mô tả luồng miễn phí, trợ năng và Premium. Chúng chưa thay cho bản vẽ tay trên giấy hoặc wireframe medium-fi.
+Ba phác thảo số mô tả luồng miễn phí, trợ năng và Premium.
 
 ![](figures/week5-ia/02-lowfi-mien-phi.png){ width=95% }
 
