@@ -277,7 +277,15 @@ Nielsen, Jakob (1994, rà soát năm 2024), *10 Usability Heuristics for User In
 
 Smartify (2026), *Smartify: Arts and Culture*. Truy cập ngày 12/09/2026 tại <https://play.google.com/store/apps/details?id=com.mobgen.smartify>.
 
-Vi Chí Thành (2026), *Tương tác người – máy* [bộ slide bài giảng]. Trường Đại học Công nghệ Thông tin, Đại học Quốc gia Thành phố Hồ Chí Minh.
+Vi Chí Thành (2026), *Tương tác người – máy* [bộ slide bài giảng]. Trường Đại học Công nghệ Thông tin, ĐHQG-HCM. Các bài giảng:
+
+- Tuần 1: *What is HCI*.
+- Tuần 2: *Introduction to User-Centred Design Methods*.
+- Tuần 3: *Introduction to Accessibility and Inclusive Design*.
+- Tuần 4: *Interaction Design and Usability*.
+- Tuần 5: *Information Architecture and Navigation Design*.
+- Tuần 6: *Introduction to Visual Design Principles*.
+- Tuần 8 (tệp 07): *User Testing and Evaluation Methods*.
 
 W3C Web Accessibility Initiative (2024), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
 
