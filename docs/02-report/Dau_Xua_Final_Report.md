@@ -277,7 +277,7 @@ Nielsen, Jakob (1994, rà soát năm 2024), *10 Usability Heuristics for User In
 
 Smartify (2026), *Smartify: Arts and Culture*. Truy cập ngày 12/09/2026 tại <https://play.google.com/store/apps/details?id=com.mobgen.smartify>.
 
-Vi Chí Thành (2026), bộ slide môn Tương tác người – máy, tài liệu giảng dạy do giảng viên cung cấp.
+Vi Chí Thành (2026), *Tương tác người – máy* [bộ slide bài giảng]. Trường Đại học Công nghệ Thông tin, Đại học Quốc gia Thành phố Hồ Chí Minh.
 
 W3C Web Accessibility Initiative (2024), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
 

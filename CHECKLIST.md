@@ -70,7 +70,7 @@ Cập nhật gần nhất: 2026-10-27
 
 ## Báo cáo cuối kỳ
 
-- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và các nguồn tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.926 từ hiển thị, thấp hơn giới hạn 2.000 từ.
+- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và các nguồn tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.934 từ hiển thị, thấp hơn giới hạn 2.000 từ.
 - [x] Đưa đủ 22 màn hình mockup Figma vào Mục 2.6 và ghi mã frame 01–22 trong chú thích Hình 14–24; đồng bộ nguồn Markdown, Word và bản PDF A4 trong `docs/03-submission/`.
 - [x] Đặt tên hai file nộp `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp; kiểm tra file sau khi đổi tên.
 - [x] Thêm Mục 2.7 với liên kết Figma mockup, phác thảo và mã nguồn; cập nhật Word/PDF, kiểm tra liên kết bấm được.
@@ -80,6 +80,7 @@ Cập nhật gần nhất: 2026-10-27
 
 ## Nhật ký hoàn thành
 
+- 2026-10-27: Chuẩn hóa mục tham khảo bộ slide của TS. Vi Chí Thành theo tên học phần, loại tài liệu và cơ sở đào tạo thể hiện trên slide gốc. Đồng bộ Markdown, hai bản Word và PDF; kiểm tra khoảng 1.934 từ hiển thị, PDF A4 23 trang, 35 hình và 8 bảng.
 - 2026-10-27: Theo xác nhận của người học rằng báo cáo tham khảo cả bộ slide môn học, gộp hai mục bài giảng tuần 2–3 thành một mục nguồn chung của TS. Vi Chí Thành (2026) và dẫn chiếu tại phần quy trình UCD. Workspace chỉ lưu hai tệp slide gốc, nên không liệt kê tên các tuần khác. Đồng bộ Markdown, Word và PDF; kiểm tra khoảng 1.926 từ hiển thị, PDF A4 23 trang, 35 hình và 8 bảng.
 - 2026-10-27: Đối chiếu chín mục tài liệu tham khảo với hai slide môn học và các trang nguồn. Sửa năm cập nhật của W3C “Involving Users…” từ 2024b thành 2020, bỏ hậu tố a ở mục W3C năm 2024, làm rõ hai nguồn W3C trong Mục 1.2. Đồng bộ Markdown, hai bản Word và PDF; kiểm tra khoảng 1.945 từ hiển thị, PDF A4 23 trang, 35 hình, 8 bảng và liên kết tham khảo.
 - 2026-10-27: Giảm dấu chấm phẩy trong báo cáo cuối kỳ, điều chỉnh 22 đoạn văn và ô bảng theo câu ngắn, giữ nguyên nội dung kỹ thuật. Giữ chỉnh sửa về mô tả hiện vật có sẵn trong bản Word nộp. Đồng bộ Markdown, hai bản Word và PDF xuất từ Word; kiểm tra còn 1.939 từ hiển thị, không còn dấu chấm phẩy trong nội dung, PDF A4 23 trang, 35 hình, 8 bảng và ba liên kết thiết kế/mã nguồn.
