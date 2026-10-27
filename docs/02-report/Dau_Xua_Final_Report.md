@@ -12,24 +12,24 @@ lang: vi-VN
 
 ## 1.1. Ý tưởng dự án
 
-Dấu Xưa là ứng dụng di động hỗ trợ tham quan bảo tàng và di tích tại chỗ. Người dùng quét QR hoặc chọn hiện vật trong danh sách để nghe câu chuyện ngắn, xem ảnh và nguồn tư liệu. Lời kể bằng âm thanh giúp giảm thời gian đọc bảng thuyết minh; mô tả hiện vật, bản chép lời và tín hiệu rung tùy chọn hỗ trợ các cách tiếp cận khác nhau. Nội dung lịch sử cần được biên tập, kiểm chứng và ghi nguồn trước khi sử dụng thực tế.
+Dấu Xưa là ứng dụng di động hỗ trợ tham quan bảo tàng và di tích tại chỗ. Người dùng quét QR hoặc chọn hiện vật trong danh sách để nghe câu chuyện ngắn, xem ảnh và nguồn tư liệu. Lời kể bằng âm thanh giúp giảm thời gian đọc bảng thuyết minh. Mô tả hiện vật, bản chép lời và tín hiệu rung tùy chọn hỗ trợ các cách tiếp cận khác nhau. Nội dung lịch sử cần được biên tập, kiểm chứng và ghi nguồn trước khi sử dụng thực tế.
 
 ## 1.2. Người dùng mục tiêu
 
-Báo cáo tập trung vào ba nhóm: sinh viên đi theo nhóm cần nội dung ngắn; phụ huynh tham quan cùng gia đình cần tuyến theo thời lượng; người khiếm thị dùng trình đọc màn hình cần mở hiện vật không phụ thuộc camera. Đây là các giả định thiết kế vì chưa phỏng vấn hoặc kiểm thử ba nhóm. W3C khuyến nghị đưa người khuyết tật vào quá trình đánh giá khả năng tiếp cận.
+Báo cáo tập trung vào ba nhóm: sinh viên đi theo nhóm cần nội dung ngắn, phụ huynh tham quan cùng gia đình cần tuyến theo thời lượng và người khiếm thị dùng trình đọc màn hình cần mô tả hiện vật không phụ thuộc vào camera. Đây là các giả định thiết kế vì chưa phỏng vấn hoặc kiểm thử ba nhóm. W3C khuyến nghị đưa người khuyết tật vào quá trình đánh giá khả năng tiếp cận.
 
 ## 1.3. Chức năng của ứng dụng
 
-Luồng miễn phí gồm chọn địa điểm, mở hiện vật, nghe chuyện, xem mô tả, bản chép lời và nguồn. Trình phát có phát, tạm dừng, tua và tiến độ. Premium Historical Tour dự kiến kết nối sáu điểm trong một tuyến 60 phút; người dùng xem giá, nghe thử trước khi mua. AR, âm thanh không gian và ngoại tuyến là phần mở rộng, có nội dung thay thế khi thiết bị không hỗ trợ. Nội dung cơ bản và trợ năng luôn miễn phí.
+Luồng miễn phí gồm chọn địa điểm, mở hiện vật, nghe chuyện, xem mô tả, bản chép lời và nguồn. Trình phát có phát, tạm dừng, tua và tiến độ. Premium Historical Tour dự kiến kết nối sáu điểm trong một tuyến 60 phút. Người dùng xem giá, nghe thử trước khi mua. AR, âm thanh không gian và ngoại tuyến là phần mở rộng, có nội dung thay thế khi thiết bị không hỗ trợ. Nội dung cơ bản và trợ năng luôn miễn phí.
 
 ## 1.4. Phân tích đối thủ
 
 | Ứng dụng | Điểm tham khảo | Quyết định cho Dấu Xưa |
 |---|---|---|
-| Smartify | Nhận diện tác phẩm, phát thuyết minh; phạm vi nhận diện phụ thuộc đối tác và bản quyền. | Có lối mở bằng QR, mã và danh sách. |
-| Bloomberg Connects | Hướng dẫn văn hóa miễn phí; công bố hỗ trợ VoiceOver, phụ đề, bản chép lời và cỡ chữ. | Đưa trợ năng vào luồng miễn phí. |
+| Smartify | Nhận diện tác phẩm, phát thuyết minh. Phạm vi nhận diện phụ thuộc đối tác và bản quyền. | Có lối mở bằng QR, mã và danh sách. |
+| Bloomberg Connects | Hướng dẫn văn hóa miễn phí và công bố hỗ trợ VoiceOver, phụ đề, bản chép lời và cỡ chữ. | Đưa trợ năng vào luồng miễn phí. |
 
-Việc đối chiếu dựa trên chức năng do hai sản phẩm công bố, chưa qua kiểm thử trực tiếp. Dấu Xưa chọn cách kể chuyện ngắn tại di sản Việt Nam; cách tiếp cận này chưa được kiểm thử với khách tham quan.
+Việc đối chiếu dựa trên chức năng do hai sản phẩm công bố, chưa qua kiểm thử trực tiếp. Dấu Xưa chọn cách kể chuyện ngắn tại di sản Việt Nam. Cách tiếp cận này chưa được kiểm thử với khách tham quan.
 
 # 2. Thiết kế trải nghiệm người dùng
 
@@ -41,19 +41,19 @@ Các bước UCD trong báo cáo gồm chân dung, kịch bản, yêu cầu, HTA
 
 | Bối cảnh | Mục tiêu và rào cản |
 |---|---|
-| 21 tuổi, đi cùng bạn, dừng ngắn tại mỗi điểm. | Nghe chuyện 2–3 phút và biết điểm tiếp theo; ngại bảng chữ dài. |
+| 21 tuổi, đi cùng bạn, dừng ngắn tại mỗi điểm. | Nghe chuyện 2–3 phút và biết điểm tiếp theo, nhưng ngại bảng chữ dài. |
 
 ### Chân dung 2: Hương, phụ huynh tham quan cùng gia đình
 
 | Bối cảnh | Mục tiêu và rào cản |
 |---|---|
-| 36 tuổi, đi cùng gia đình, có 45–90 phút. | Chọn tuyến phù hợp và xem rõ lợi ích, giá trước khi mua; trẻ dễ chán khi chỉ đọc. |
+| 36 tuổi, đi cùng gia đình, có 45–90 phút. | Chọn tuyến phù hợp và xem rõ lợi ích, giá trước khi mua. Trẻ dễ chán khi chỉ đọc. |
 
 ### Chân dung 3: Nam, người khiếm thị
 
 | Bối cảnh | Mục tiêu và rào cản |
 |---|---|
-| 29 tuổi, dùng VoiceOver/TalkBack. | Tự tìm hiện vật, nghe mô tả trước câu chuyện; QR và hình ảnh khó tự thao tác. |
+| 29 tuổi, dùng VoiceOver/TalkBack. | Tự tìm hiện vật, nghe mô tả trước câu chuyện. QR và hình ảnh khó tự thao tác. |
 
 ## 2.2. Kịch bản người dùng
 
@@ -63,7 +63,7 @@ Minh quét QR tại di tích, nghe chuyện ngắn rồi xem gợi ý điểm ti
 
 ### Kịch bản 2: Nam tham quan bằng trình đọc màn hình
 
-Nam dùng VoiceOver/TalkBack duyệt danh sách, nghe tên và mô tả hiện vật trước câu chuyện. Nút phải có nhãn rõ, thứ tự tiêu điểm hợp lý; rung có thể tắt và không mang thông tin duy nhất.
+Nam dùng VoiceOver/TalkBack duyệt danh sách, nghe tên và mô tả hiện vật trước câu chuyện. Nút phải có nhãn rõ, thứ tự tiêu điểm hợp lý. Rung có thể tắt và không mang thông tin duy nhất.
 
 ### Kịch bản 3: Hương mua và sử dụng Premium Historical Tour
 
@@ -81,8 +81,8 @@ MoSCoW phân loại yêu cầu theo mức cần thiết. Mã yêu cầu giữ ng
 | M2 | Mở hiện vật bằng QR, mã hoặc danh sách. |
 | M3 | Câu chuyện ngắn có lời kể và hình ảnh. |
 | M4 | Phát, dừng, tua, bỏ qua và xem tiến độ. |
-| M5 | Mô tả ảnh bằng chữ; mô tả âm thanh của hiện vật tách khỏi chuyện. |
-| M6 | Luồng chính dùng được với trình đọc màn hình; không chỉ dựa vào màu, hình, âm thanh hoặc rung. |
+| M5 | Mô tả ảnh bằng chữ. Mô tả âm thanh của hiện vật tách khỏi chuyện. |
+| M6 | Luồng chính dùng được với trình đọc màn hình, không chỉ dựa vào màu, hình, âm thanh hoặc rung. |
 | M7 | Rung có chọn lọc và tắt được. |
 | M8 | Hiển thị nguồn hoặc ghi chú biên tập. |
 
@@ -107,11 +107,11 @@ MoSCoW phân loại yêu cầu theo mức cần thiết. Mã yêu cầu giữ ng
 
 ## 2.4. Phân tích nhiệm vụ theo thứ bậc (HTA)
 
-HTA 1–8 ứng với M1–M8; HTA 9 mô tả tour trả phí. Sơ đồ thể hiện thứ tự, nhánh thay thế và điểm quay lại.
+HTA 1–8 ứng với M1–M8. HTA 9 mô tả tour trả phí. Sơ đồ thể hiện thứ tự, nhánh thay thế và điểm quay lại.
 
 ### HTA 1: Chọn đúng địa điểm đang tham quan cho M1
 
-Chọn theo vị trí mô phỏng, tìm tên hoặc danh sách; kiểm tra trước khi xác nhận.
+Chọn theo vị trí mô phỏng, tìm tên hoặc danh sách rồi kiểm tra trước khi xác nhận.
 
 ![](figures/hta/hta-m1-select-location.png){ width=95% }
 
@@ -119,7 +119,7 @@ Hình 1. HTA chọn địa điểm.
 
 ### HTA 2: Mở đúng nội dung của một hiện vật cho M2
 
-QR, mã và danh sách cùng dẫn đến hiện vật; có lối quay lại khi lỗi.
+QR, mã và danh sách cùng dẫn đến hiện vật. Có lối quay lại khi lỗi.
 
 ![](figures/hta/hta-m2-open-exhibit.png){ width=95% }
 
@@ -127,7 +127,7 @@ Hình 2. HTA mở hiện vật.
 
 ### HTA 3: Nghe câu chuyện ngắn có âm thanh và hình ảnh cho M3
 
-Lời kể đi cùng hình ảnh; bản chép lời là phương án thay thế.
+Lời kể đi cùng hình ảnh. Bản chép lời là phương án thay thế.
 
 ![](figures/hta/hta-m3-short-story.png){ width=95% }
 
@@ -143,7 +143,7 @@ Hình 4. HTA điều khiển trình phát.
 
 ### HTA 5: Truy cập mô tả của hiện vật và hình ảnh cho M5
 
-Mô tả bằng chữ đã có; bản thu mô tả riêng chưa hoàn thành.
+Mô tả bằng chữ đã có. Bản thu mô tả riêng chưa hoàn thành.
 
 ![](figures/hta/hta-m5-audio-description.png){ width=95% }
 
@@ -159,7 +159,7 @@ Hình 6. HTA dùng trình đọc màn hình.
 
 ### HTA 7: Thiết lập và sử dụng tín hiệu rung cho M7
 
-Công tắc rung chỉ là minh họa; rung theo mốc chưa triển khai.
+Công tắc rung chỉ là minh họa. Rung theo mốc chưa triển khai.
 
 ![](figures/hta/hta-m7-haptics.png){ width=95% }
 
@@ -167,7 +167,7 @@ Hình 7. HTA thiết lập rung.
 
 ### HTA 8: Kiểm tra nguồn của nội dung lịch sử cho M8
 
-Người dùng mở mục Nguồn rồi trở lại câu chuyện; nguồn thật chưa bổ sung.
+Người dùng mở mục Nguồn rồi trở lại câu chuyện. Nguồn thật chưa bổ sung.
 
 ![](figures/hta/hta-m8-sources.png){ width=95% }
 
@@ -175,7 +175,7 @@ Hình 8. HTA kiểm tra nguồn.
 
 ### HTA 9: Mua và trải nghiệm Premium Historical Tour
 
-Xem giá, nghe thử, mua và theo tuyến; AR luôn có phương án thay thế. Thanh toán đang mô phỏng.
+Xem giá, nghe thử, mua và theo tuyến. AR luôn có phương án thay thế. Thanh toán đang mô phỏng.
 
 ![](figures/hta/hta-premium.png){ width=95% }
 
@@ -185,7 +185,7 @@ Hình 9. HTA tour trả phí.
 
 ### 2.5.1. Sitemap và điều hướng
 
-Sáu khu vực gồm Khởi động, Khám phá, Tour, Đã lưu, Cá nhân và Trợ năng. Thanh dưới dẫn đến bốn khu vực chính; thiết lập trợ năng dùng xuyên suốt.
+Sáu khu vực gồm Khởi động, Khám phá, Tour, Đã lưu, Cá nhân và Trợ năng. Thanh dưới dẫn đến bốn khu vực chính. Thiết lập trợ năng dùng xuyên suốt.
 
 ![](figures/week5-ia/01-sitemap.png){ width=95% }
 
@@ -257,7 +257,7 @@ Hình 23. Đã lưu và trang cá nhân (frame 16, 17).
 
 Hình 24. Nhập mã lỗi và danh sách rỗng (frame 18, 19).
 
-Bản thử nghiệm 0.5.1 chỉ có bốn chuyện mẫu; vị trí, QR, thanh toán, ngoại tuyến, AR và rung được mô phỏng. Tour mới có một điểm tương tác; chưa có bản chép lời khớp âm thanh, nguồn lịch sử thật hoặc kiểm thử VoiceOver/TalkBack. Vì vậy, chưa thể kết luận sản phẩm đáp ứng đầy đủ các yêu cầu tiếp cận và nội dung.
+Bản thử nghiệm 0.5.1 chỉ có bốn chuyện mẫu. Vị trí, QR, thanh toán, ngoại tuyến, AR và rung được mô phỏng. Tour mới có một điểm tương tác. Chưa có bản chép lời khớp âm thanh, nguồn lịch sử thật hoặc kiểm thử VoiceOver/TalkBack. Vì vậy, chưa thể kết luận sản phẩm đáp ứng đầy đủ các yêu cầu tiếp cận và nội dung.
 
 ## 2.7. Liên kết thiết kế và mã nguồn
 
