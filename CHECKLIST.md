@@ -70,7 +70,7 @@ Cập nhật gần nhất: 2026-10-27
 
 ## Báo cáo cuối kỳ
 
-- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.959 từ hiển thị, thấp hơn giới hạn 2.000 từ.
+- [x] Rút gọn báo cáo từ bản `ver_BaiTap5`, giữ 34 đề mục cũ và nguyên danh mục tham khảo; bản hiện hành thêm Mục 2.7, có khoảng 1.933 từ hiển thị, thấp hơn giới hạn 2.000 từ.
 - [x] Đưa đủ 22 màn hình mockup Figma vào Mục 2.6 và ghi mã frame 01–22 trong chú thích Hình 14–24; đồng bộ nguồn Markdown, Word và bản PDF A4 trong `docs/03-submission/`.
 - [x] Đặt tên hai file nộp `finalreport_ToHuynhMinhTien_250201095.docx` và `.pdf` theo MSSV người học cung cấp; kiểm tra file sau khi đổi tên.
 - [x] Thêm Mục 2.7 với liên kết Figma mockup, phác thảo và mã nguồn; cập nhật Word/PDF, kiểm tra liên kết bấm được.
@@ -80,6 +80,7 @@ Cập nhật gần nhất: 2026-10-27
 
 ## Nhật ký hoàn thành
 
+- 2026-10-27: Bỏ ba câu lặp về giới hạn đánh giá và xác thực chân dung trong báo cáo cuối kỳ; giữ nội dung về giới hạn nghiên cứu ở Mục 1.2 và phần kết luận. Đồng bộ Markdown, Word và bản nộp; bản văn hiển thị khoảng 1.933 từ.
 - 2026-10-27: Bỏ câu nhận xét về phác thảo giấy và wireframe medium-fi trong Mục 2.5 của báo cáo cuối kỳ theo yêu cầu người học; giữ câu mô tả ba phác thảo số. Đồng bộ Markdown, hai bản DOCX và PDF xuất từ Word; kiểm tra câu đã xóa không còn, 35 hình nhúng, PDF A4 23 trang và ba liên kết còn nguyên. Bản văn hiển thị khoảng 1.959 từ.
 - 2026-10-26: Biên tập ba đoạn tại Mục 1.2, 1.4 và phần dẫn Mục 2 để bỏ cách diễn đạt gượng và câu chung chung. Giữ nguyên ý, cấu trúc, bảng, hình và nguồn; đồng bộ Markdown, Word và bản nộp PDF xuất trực tiếp từ Word. Kiểm tra khoảng 1.971 từ, DOCX có 35 hình và 8 bảng, PDF A4 có 23 trang và ba liên kết còn hoạt động.
 - 2026-10-26: Thay quy trình kết xuất Quick Look/Chrome bằng lệnh xuất PDF của Microsoft Word. Bản nộp PDF mới có 23 trang A4 đúng theo phân trang Word; đã xem toàn bộ trang, kiểm tra 22 mockup trong Mục 2.6 và ba liên kết ở Mục 2.7. DOCX và nội dung báo cáo không thay đổi.

@@ -31,7 +31,7 @@ Việc đối chiếu dựa trên chức năng do hai sản phẩm công bố, c
 
 # 2. Thiết kế trải nghiệm người dùng
 
-Các bước UCD trong báo cáo gồm chân dung, kịch bản, yêu cầu, HTA, phác thảo và rà soát giao diện. Chưa có bước đánh giá với người dùng.
+Các bước UCD trong báo cáo gồm chân dung, kịch bản, yêu cầu, HTA, phác thảo và rà soát giao diện.
 
 ## 2.1. Chân dung người dùng
 
@@ -52,8 +52,6 @@ Các bước UCD trong báo cáo gồm chân dung, kịch bản, yêu cầu, HTA
 | Bối cảnh | Mục tiêu và rào cản |
 |---|---|
 | 29 tuổi, dùng VoiceOver/TalkBack. | Tự tìm hiện vật, nghe mô tả trước câu chuyện; QR và hình ảnh khó tự thao tác. |
-
-Ba chân dung chưa được xác thực bằng nghiên cứu người dùng.
 
 ## 2.2. Kịch bản người dùng
 
@@ -209,7 +207,7 @@ Hình 13. Phác thảo tour trả phí.
 
 ## 2.6. Rà soát và điều chỉnh giao diện theo nguyên tắc khả dụng
 
-Đánh giá theo 10 nguyên tắc của Nielsen dẫn đến ba điều chỉnh chính: thêm lối danh sách khi QR lỗi, hiển thị trạng thái trình phát, và đặt giá cùng phần nghe thử trước xác nhận mua. Chưa kiểm thử với người dùng.
+Đánh giá theo 10 nguyên tắc của Nielsen dẫn đến ba điều chỉnh chính: thêm lối danh sách khi QR lỗi, hiển thị trạng thái trình phát, và đặt giá cùng phần nghe thử trước xác nhận mua.
 
 ![Màn hình Khám phá](../04-design/high-fidelity/01-kham-pha.png){ width=42% } ![Trình phát câu chuyện](../04-design/high-fidelity/03-trinh-phat.png){ width=42% }
 
