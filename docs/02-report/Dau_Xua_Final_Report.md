@@ -16,7 +16,7 @@ Dấu Xưa là ứng dụng di động hỗ trợ tham quan bảo tàng và di t
 
 ## 1.2. Người dùng mục tiêu
 
-Báo cáo tập trung vào ba nhóm: sinh viên đi theo nhóm cần nội dung ngắn, phụ huynh tham quan cùng gia đình cần tuyến theo thời lượng và người khiếm thị dùng trình đọc màn hình cần mô tả hiện vật không phụ thuộc vào camera. Đây là các giả định thiết kế vì chưa phỏng vấn hoặc kiểm thử ba nhóm. W3C khuyến nghị đưa người khuyết tật vào quá trình đánh giá khả năng tiếp cận.
+Báo cáo tập trung vào ba nhóm: sinh viên đi theo nhóm cần nội dung ngắn, phụ huynh tham quan cùng gia đình cần tuyến theo thời lượng và người khiếm thị dùng trình đọc màn hình cần mô tả hiện vật không phụ thuộc vào camera. Đây là các giả định thiết kế vì chưa phỏng vấn hoặc kiểm thử ba nhóm. W3C WAI mô tả các rào cản tiếp cận (2024) và khuyến nghị mời người khuyết tật tham gia đánh giá (2020).
 
 ## 1.3. Chức năng của ứng dụng
 
@@ -281,6 +281,6 @@ Vi Chi Thanh (2026a), *Week 2: Introduction to User-Centred Design Methods*. Tà
 
 Vi Chi Thanh (2026b), *Week 3: Introduction to Accessibility and Inclusive Design*. Tài liệu môn học, University of Information Technology và Birmingham City University.
 
-W3C Web Accessibility Initiative (2024a), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
+W3C Web Accessibility Initiative (2024), *How People with Disabilities Use the Web*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/people-use-web/>.
 
-W3C Web Accessibility Initiative (2024b), *Involving Users in Web Projects for Better, Easier Accessibility*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/planning/involving-users/>.
+W3C Web Accessibility Initiative (2020), *Involving Users in Web Projects for Better, Easier Accessibility*. Truy cập ngày 12/09/2026 tại <https://www.w3.org/WAI/planning/involving-users/>.
